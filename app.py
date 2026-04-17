@@ -189,26 +189,25 @@ def format_number(num):
     return f"{num:,}"
 
 
-def render_frontend_table(df, key, column_config=None, filename=None):
-    """Render a dataframe with download, expand, and more-options controls."""
+def render_frontend_table(df, key, column_config=None, filename=None, hide_controls=False):
     filename = filename or f"{key}.csv"
     expand_key = f"{key}_expand"
-    summary_key = f"{key}_summary"
 
-    _, col_download, col_expand = st.columns([6, 1, 1])
+    if not hide_controls:
+        _, col_download, col_expand = st.columns([6, 1, 1])
 
-    with col_download:
-        st.download_button(
-            label="⬇️",
-            data=df.to_csv(index=False).encode("utf-8"),
-            file_name=filename,
-            mime="text/csv",
-            key=f"{key}_download",
-        )
+        with col_download:
+            st.download_button(
+                label="⬇️",
+                data=df.to_csv(index=False).encode("utf-8"),
+                file_name=filename,
+                mime="text/csv",
+                key=f"{key}_download",
+            )
 
-    with col_expand:
-        if st.button("🔍", key=f"{key}_expand_button"):
-            st.session_state[expand_key] = not st.session_state.get(expand_key, False)
+        with col_expand:
+            if st.button("🔍", key=f"{key}_expand_button"):
+                st.session_state[expand_key] = not st.session_state.get(expand_key, False)
 
     is_expanded = st.session_state.get(expand_key, False)
 
@@ -224,18 +223,7 @@ def render_frontend_table(df, key, column_config=None, filename=None):
         height=600 if is_expanded else "content",
     )
 
-    with st.expander("⋯ More options"):
-        st.write(f"Rows: {len(df):,} | Columns: {len(df.columns):,}")
 
-        if st.button("Show summary", key=f"{key}_summary_button"):
-            st.session_state[summary_key] = not st.session_state.get(summary_key, False)
-
-        if st.session_state.get(summary_key, False):
-            render_frontend_table(
-                df.describe(include="all").fillna(""),
-                key=f"{key}_summary_table",
-                filename=f"{key}_summary.csv",
-            )
 
 
 def get_filters(key_prefix):
@@ -266,7 +254,7 @@ def get_filters(key_prefix):
 
 with st.sidebar:
     st.markdown("# 📰 News Finder")
-    st.caption("Zee Gujarati Competitor Analysis")
+    st.caption("Competitor Analysis")
     
     freshness = get_data_freshness()
     if freshness:
@@ -782,7 +770,8 @@ elif page == PAGE_DUPLICATES:
                 filename=f"duplicate_story_{g_idx:03}.csv",
                 column_config={
                     "URL": st.column_config.LinkColumn("Link", display_text="Open"),
-                }
+                },
+                hide_controls=True,
             )
 
             st.markdown("---")
@@ -819,7 +808,8 @@ elif page == PAGE_DUPLICATES:
             column_config={
                 "Duplicate %": st.column_config.NumberColumn("Duplicate %", format="%.1f%%"),
                 "URL": st.column_config.LinkColumn("Link", display_text="Open"),
-            }
+            },
+            hide_controls=True,
         )
 
 

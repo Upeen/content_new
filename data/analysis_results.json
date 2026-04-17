@@ -1,118 +1,22 @@
 {
   "metadata": {
-    "analyzed_at": "2026-04-16T19:52:59.455661+00:00"
+    "analyzed_at": "2026-04-17T05:34:09.609816+00:00"
   },
   "results": {
     "summary": {
-      "total_articles": 1328,
+      "total_articles": 1149,
       "articles_per_source": {
         "Divya Bhaskar": 678,
         "Gujarat Samachar": 265,
-        "News18 Gujarati": 167,
-        "TV9 Gujarati": 162,
-        "ABP Gujarati": 56
+        "TV9 Gujarati": 165,
+        "News18 Gujarati": 33,
+        "ABP Gujarati": 8
       },
       "sources_count": 5,
-      "has_timestamps": 1063,
-      "has_keywords": 840
+      "has_timestamps": 884,
+      "has_keywords": 843
     },
     "similar_articles": [
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Aadhar Card Loan Scam Govt Warns People About Such Ads Stay Vigilant Mk 2502626",
-          "url": "https://gujarati.news18.com/photogallery/business/aadhar-card-loan-scam-govt-warns-people-about-such-ads-stay-vigilant-mk-2502626.html",
-          "published_at": "2026-04-16T13:45:56+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Aadhar Card Loan Scam Govt Warns People About Such Ads Stay Vigilant 977530",
-          "url": "https://gujarati.abplive.com/news/india/aadhar-card-loan-scam-govt-warns-people-about-such-ads-stay-vigilant-977530",
-          "published_at": "2026-04-16T13:03:33+05:30"
-        },
-        "similarity_score": 0.989,
-        "is_likely_duplicate": "True"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Arshdeep Singh Becomes First Bowler Complete 100 Wickets For Punjab Kings Jg 2503208",
-          "url": "https://gujarati.news18.com/news/sport/arshdeep-singh-becomes-first-bowler-complete-100-wickets-for-punjab-kings-jg-2503208.html",
-          "published_at": "2026-04-16T21:33:46+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Arshdeep Singh Becomes Only Fifth Bowler To Complete 100 Wickets In Ipl 977578",
-          "url": "https://gujarati.abplive.com/sports/ipl/arshdeep-singh-becomes-only-fifth-bowler-to-complete-100-wickets-in-ipl-977578",
-          "published_at": "2026-04-16T21:53:03+05:30"
-        },
-        "similarity_score": 0.8446,
-        "is_likely_duplicate": "True"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Lashkar E Taiba Founder Member Amir Hamza Shot In Lahore Critical Mk 2502610",
-          "url": "https://gujarati.news18.com/news/national-international/lashkar-e-taiba-founder-member-amir-hamza-shot-in-lahore-critical-mk-2502610.html",
-          "published_at": "2026-04-16T13:18:13+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Lashkar E Taiba Founder Maulana Amir Hamza Injured In Firing In Lahore 977522",
-          "url": "https://gujarati.abplive.com/news/world/lashkar-e-taiba-founder-maulana-amir-hamza-injured-in-firing-in-lahore-977522",
-          "published_at": "2026-04-16T12:52:34+05:30"
-        },
-        "similarity_score": 0.7416,
-        "is_likely_duplicate": "True"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Personal Finance 8Th Pay Commission News Will The Basic Salary Increase From Rs 18000 To Rs 69000 Sv Ws A 2502568",
-          "url": "https://gujarati.news18.com/photogallery/business/personal-finance-8th-pay-commission-news-will-the-basic-salary-increase-from-rs-18000-to-rs-69000-sv-ws-a-2502568.html",
-          "published_at": "2026-04-16T14:07:24+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Will The Basic Salary Rise From 18 000 To 69 000 8Th Pay Commission 977542",
-          "url": "https://gujarati.abplive.com/news/business/will-the-basic-salary-rise-from-18-000-to-69-000-8th-pay-commission-977542",
-          "published_at": "2026-04-16T14:35:08+05:30"
-        },
-        "similarity_score": 0.5616,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "Divya Bhaskar",
-          "title": "દેત્રોજની ફેક્ટરીમાં ભીષણ આગથી ધૂમાડાના ગોટેગોટા: કાનપુરા રોડ પર ડનલોપ સીટની ફેક્ટરીમાં લાગેલી આગ ખેતરોમાં પ્રસરી, ફાયર બ્રિગેડની ટીમો દોડી ગઈ",
-          "url": "https://www.divyabhaskar.co.in/local/gujarat/mehsana/kadi/news/detroj-factory-fire-kanpura-road-dunlop-seat-factory-blaze-spreads-to-farms-137713283.html",
-          "published_at": "2026-04-16T19:50:58+00:00"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "આખો ટ્રક બળી ગયો, અમદાવાદમાં ડનલોપ સીટ બનાવટી ફેક્ટરીમાં ભીષણ આગ, જુઓ Video",
-          "url": "https://tv9gujarati.com/videos/gujarat-videos/fire-breaks-out-at-dunlop-seat-factory-in-detroj-fire-brigade-mobilised-1429895.html",
-          "published_at": "2026-04-16T20:58:14+05:30"
-        },
-        "similarity_score": 0.5003,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Sardar Sarovar Narmada Dam Water Level Increase As Mp Release Water Vz 2502529",
-          "url": "https://gujarati.news18.com/videos/narmada/sardar-sarovar-narmada-dam-water-level-increase-as-mp-release-water-vz-2502529.html",
-          "published_at": "2026-04-16T11:59:00+05:30"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "Breaking News : ભર ઉનાળે સરદાર સરોવર ડેમની જળસપાટીમાં થયો વધારો, ખેડૂતોને મળશે વધુ લાભ !",
-          "url": "https://tv9gujarati.com/videos/gujarat-videos/water-level-of-sardar-sarovar-dam-has-increased-in-middle-of-summer-farmers-will-get-more-benefits-1429707.html",
-          "published_at": "2026-04-16T14:59:35+05:30"
-        },
-        "similarity_score": 0.4612,
-        "is_likely_duplicate": "False"
-      },
       {
         "article_1": {
           "source": "Divya Bhaskar",
@@ -126,215 +30,7 @@
           "url": "https://tv9gujarati.com/photo-gallery/gold-silver-prices-surge-ahead-of-akshay-tritiya-festive-demand-triggers-big-jump-in-precious-metals-rates-1429405.html",
           "published_at": "2026-04-15T20:25:57+05:30"
         },
-        "similarity_score": 0.4498,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Lashkar E Taiba Founder Member Amir Hamza Shot In Lahore Critical Mk 2502610",
-          "url": "https://gujarati.news18.com/news/national-international/lashkar-e-taiba-founder-member-amir-hamza-shot-in-lahore-critical-mk-2502610.html",
-          "published_at": "2026-04-16T13:18:13+05:30"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "Breaking News : પાકિસ્તાનમાં અજાણ્યો વ્યક્તિ ફરી થયો સક્રિય, આતંકવાદી અમીર હમઝાને લાહોરમાં મારી ગોળી, જીવન-મરણ વચ્ચે ઝોલા ખાઈ રહ્યો છે",
-          "url": "https://tv9gujarati.com/international-news/breaking-news-hafiz-saeeds-aide-and-lashkar-e-taiba-co-founder-amir-hamza-shot-dead-in-lahore-by-unknown-person-1429648.html",
-          "published_at": "2026-04-16T13:51:43+05:30"
-        },
-        "similarity_score": 0.4338,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Parliament Session Live Update Breaking News Women Reservation Amendment Bill Pm Modi Mk 2502812",
-          "url": "https://gujarati.news18.com/news/national-international/parliament-session-live-update-breaking-news-women-reservation-amendment-bill-pm-modi-mk-2502812.html",
-          "published_at": "2026-04-16T15:55:21+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Pm Modi Speech In Loksabha Women Reservation Bill 977554",
-          "url": "https://gujarati.abplive.com/news/india/pm-modi-speech-in-loksabha-women-reservation-bill-977554",
-          "published_at": "2026-04-16T15:53:08+05:30"
-        },
-        "similarity_score": 0.4333,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "TV9 Gujarati",
-          "title": "Breaking News: ભારત હવે રશિયા-ઈરાન પાસેથી તેલ નહીં ખરીદી શકે ! ડેડલાઈન સમાપ્ત થતા US આડુ ફાટ્યું",
-          "url": "https://tv9gujarati.com/international-news/breaking-news-india-now-buying-oil-from-russia-iran-will-stop-us-takes-big-decision-1429494.html",
-          "published_at": "2026-04-16T09:07:27+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Iran War Biggest Updates Mojtaba Khamenei Advisor Mohsen Rezaei Target Us Donald Trump On Blockade Of Iranian Ports Amid Us Israel Iran War 977506",
-          "url": "https://gujarati.abplive.com/news/world/iran-war-biggest-updates-mojtaba-khamenei-advisor-mohsen-rezaei-target-us-donald-trump-on-blockade-of-iranian-ports-amid-us-israel-iran-war-977506",
-          "published_at": "2026-04-16T10:21:31+05:30"
-        },
-        "similarity_score": 0.432,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Unseasonal Rains Forecast In Gujarat Amid Scorching Heat Jg 2503151",
-          "url": "https://gujarati.news18.com/videos/ahmedabad/unseasonal-rains-forecast-in-gujarat-amid-scorching-heat-jg-2503151.html",
-          "published_at": "2026-04-16T20:19:39+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Forecast Of Seasonal Rains In Gujarat From Next 19Th April 977549",
-          "url": "https://gujarati.abplive.com/news/gujarat/forecast-of-seasonal-rains-in-gujarat-from-next-19th-april-977549",
-          "published_at": "2026-04-16T15:05:01+05:30"
-        },
-        "similarity_score": 0.4274,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "TV9 Gujarati",
-          "title": "Money Plant Vastu Tips : તમારા ઘરમાં મની પ્લાન્ટ ખોટી દિશામાં મૂકાયેલો છે? જાણો વસ્તુ અનુસાર તેના નુકસાન",
-          "url": "https://tv9gujarati.com/photo-gallery/money-plant-vastu-correct-placement-for-prosperity-and-avoiding-financial-loss-1429289.html",
-          "published_at": "2026-04-15T18:20:19+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Vastu Tips Money Plant Wrong Direction Stop Progress 977594",
-          "url": "https://gujarati.abplive.com/astro/dharam-jyotish/vastu-tips-money-plant-wrong-direction-stop-progress-977594",
-          "published_at": "2026-04-16T23:40:35+05:30"
-        },
-        "similarity_score": 0.4241,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Mi Vs Pbks Ipl 2026 Punjab King Won By 7 Wickets Jg 2503272",
-          "url": "https://gujarati.news18.com/news/sport/mi-vs-pbks-ipl-2026-punjab-king-won-by-7-wickets-jg-2503272.html",
-          "published_at": "2026-04-16T23:08:00+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Ipl 2026 Mi Vs Pbks Full Match Highlights Mumbai Indians Embarrassed With 4Th Consecutive Loss 977593",
-          "url": "https://gujarati.abplive.com/sports/ipl/ipl-2026-mi-vs-pbks-full-match-highlights-mumbai-indians-embarrassed-with-4th-consecutive-loss-977593",
-          "published_at": "2026-04-16T23:23:48+05:30"
-        },
-        "similarity_score": 0.4182,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Bbc Layoffs 2026 2000 Jobs To Be Cut Amid Financial Pressures And Case Asm 2502658",
-          "url": "https://gujarati.news18.com/photogallery/career/bbc-layoffs-2026-2000-jobs-to-be-cut-amid-financial-pressures-and-case-asm-2502658.html",
-          "published_at": "2026-04-16T13:57:31+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Bbc Massive Layoff In 15 Years 2000 Jobs Cut In Bbc To Save 500 Million Pounds 977508",
-          "url": "https://gujarati.abplive.com/news/business/bbc-massive-layoff-in-15-years-2000-jobs-cut-in-bbc-to-save-500-million-pounds-977508",
-          "published_at": "2026-04-16T10:23:45+05:30"
-        },
-        "similarity_score": 0.4109,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "Divya Bhaskar",
-          "title": "સંસદમાં મજાક-મસ્તી, VIDEO: માઇકની વાત પર બિરલા-રાહુલ હસી પડ્યા, PM મોદીએ અખિલેશને મિત્ર કહેતા ડિમ્પલ યાદવનું રિએક્શન જોવા જેવું; ટોપ-8 મોમેન્ટ્સ",
-          "url": "https://www.divyabhaskar.co.in/national/news/parliament-special-session-birla-rahul-gandhi-modi-akhilesh-yadav-women-reservation-bill-137711749.html",
-          "published_at": "2026-04-16T16:59:49+00:00"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Pm Modi Speech In Loksabha Women Reservation Bill 977554",
-          "url": "https://gujarati.abplive.com/news/india/pm-modi-speech-in-loksabha-women-reservation-bill-977554",
-          "published_at": "2026-04-16T15:53:08+05:30"
-        },
-        "similarity_score": 0.4012,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "Divya Bhaskar",
-          "title": "સાણંદ-વિરમગામ હાઈવે પર સ્ક્રેપ ગોડાઉનમાં ભીષણ આગ: છારોડીમાં કિલોસ્કર બ્રધર્સ કંપની પાસેનો બનાવ, આકાશચૂંબી કાળાઘૂમ ધૂમાડાના ગોટેગોટા, ફાયરની ટીમ દોડી ગઈ",
-          "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/dhandhuka/news/sanand-viramgam-highway-godown-fire-attempts-control-reason-unknown-137710688.html",
-          "published_at": "2026-04-16T14:29:38+00:00"
-        },
-        "article_2": {
-          "source": "News18 Gujarati",
-          "title": "Sanand Viramgam Highway Massive Fire Breaks Out In Scrap Godown Kp Ws Bl 2502580",
-          "url": "https://gujarati.news18.com/news/ahmedabad/sanand-viramgam-highway-massive-fire-breaks-out-in-scrap-godown-kp-ws-bl-2502580.html",
-          "published_at": "2026-04-16T12:50:34+05:30"
-        },
-        "similarity_score": 0.393,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "TV9 Gujarati",
-          "title": "Breaking News : પાકિસ્તાનમાં અજાણ્યો વ્યક્તિ ફરી થયો સક્રિય, આતંકવાદી અમીર હમઝાને લાહોરમાં મારી ગોળી, જીવન-મરણ વચ્ચે ઝોલા ખાઈ રહ્યો છે",
-          "url": "https://tv9gujarati.com/international-news/breaking-news-hafiz-saeeds-aide-and-lashkar-e-taiba-co-founder-amir-hamza-shot-dead-in-lahore-by-unknown-person-1429648.html",
-          "published_at": "2026-04-16T13:51:43+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Lashkar E Taiba Founder Maulana Amir Hamza Injured In Firing In Lahore 977522",
-          "url": "https://gujarati.abplive.com/news/world/lashkar-e-taiba-founder-maulana-amir-hamza-injured-in-firing-in-lahore-977522",
-          "published_at": "2026-04-16T12:52:34+05:30"
-        },
-        "similarity_score": 0.3897,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Israel Lebanon Ceasefire Announced Us President Donald Trump Pk Ws B 2503202",
-          "url": "https://gujarati.news18.com/news/national-international/israel-lebanon-ceasefire-announced-us-president-donald-trump-pk-ws-b-2503202.html",
-          "published_at": "2026-04-16T21:42:37+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Donald Trump Announces Ceasefire Between Lebanon And Israel 977592",
-          "url": "https://gujarati.abplive.com/news/world/donald-trump-announces-ceasefire-between-lebanon-and-israel-977592",
-          "published_at": "2026-04-16T23:11:28+05:30"
-        },
-        "similarity_score": 0.3875,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "Divya Bhaskar",
-          "title": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53 લાખ/10 ગ્રામ થયું",
-          "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-indian-market-2026-137710231.html",
-          "published_at": "2026-04-16T13:06:29+00:00"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "Gold-Silver Rate Today: અક્ષય તૃતીયા પહેલા સોનાના ભાવ ઉછળ્યા, જાણો આજનો લેટેસ્ટ ભાવ",
-          "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-16-april-2026-gold-prices-rose-before-akshay-tritiya-1429504.html",
-          "published_at": "2026-04-16T09:41:58+05:30"
-        },
-        "similarity_score": 0.3853,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "Divya Bhaskar",
-          "title": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53 લાખ/10 ગ્રામ થયું",
-          "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-indian-market-2026-137710231.html",
-          "published_at": "2026-04-16T13:06:29+00:00"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "Gold-Silver Rate Today: સોનાના ભાવમાં વધારો, ચાંદીની ચમક થઇ ઓછી, જાણો તમારા શહેરના ભાવ",
-          "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-15-april-2026-gold-ahmedavad-mumbai-delhi-price-1429026.html",
-          "published_at": "2026-04-15T10:23:49+05:30"
-        },
-        "similarity_score": 0.3849,
+        "similarity_score": 0.4579,
         "is_likely_duplicate": "False"
       },
       {
@@ -350,103 +46,103 @@
           "url": "https://tv9gujarati.com/international-news/breaking-news-hafiz-saeeds-aide-and-lashkar-e-taiba-co-founder-amir-hamza-shot-dead-in-lahore-by-unknown-person-1429648.html",
           "published_at": "2026-04-16T13:51:43+05:30"
         },
-        "similarity_score": 0.3787,
+        "similarity_score": 0.4209,
         "is_likely_duplicate": "False"
       },
       {
         "article_1": {
+          "source": "Divya Bhaskar",
+          "title": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53 લાખ/10 ગ્રામ થયું",
+          "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-indian-market-2026-137710231.html",
+          "published_at": "2026-04-16T13:06:29+00:00"
+        },
+        "article_2": {
+          "source": "TV9 Gujarati",
+          "title": "Gold-Silver Rate Today: સોનાના ભાવમાં સતત બીજા દિવસે વધારો, ફરી મોંઘુ થઈ જશે સોના-ચાંદી?",
+          "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-17-april-2026-prices-increase-second-consecutive-day-1430004.html",
+          "published_at": "2026-04-17T08:59:33+05:30"
+        },
+        "similarity_score": 0.4085,
+        "is_likely_duplicate": "False"
+      },
+      {
+        "article_1": {
+          "source": "Divya Bhaskar",
+          "title": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53 લાખ/10 ગ્રામ થયું",
+          "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-indian-market-2026-137710231.html",
+          "published_at": "2026-04-16T13:06:29+00:00"
+        },
+        "article_2": {
           "source": "TV9 Gujarati",
           "title": "Gold-Silver Rate Today: અક્ષય તૃતીયા પહેલા સોનાના ભાવ ઉછળ્યા, જાણો આજનો લેટેસ્ટ ભાવ",
           "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-16-april-2026-gold-prices-rose-before-akshay-tritiya-1429504.html",
           "published_at": "2026-04-16T09:41:58+05:30"
         },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Silver Latest Rate News Gold Silver Price Today 16 April 2026 Live Updates Check India City Wise Gold Silver Rate 24 Carat 22 Carat 977512",
-          "url": "https://gujarati.abplive.com/news/business/silver-latest-rate-news-gold-silver-price-today-16-april-2026-live-updates-check-india-city-wise-gold-silver-rate-24-carat-22-carat-977512",
-          "published_at": "2026-04-16T11:18:51+05:30"
-        },
-        "similarity_score": 0.3697,
+        "similarity_score": 0.4042,
         "is_likely_duplicate": "False"
       },
       {
         "article_1": {
           "source": "Divya Bhaskar",
-          "title": "સાણંદ-વિરમગામ હાઈવે પર સ્ક્રેપ ગોડાઉનમાં ભીષણ આગ: છારોડીમાં કિલોસ્કર બ્રધર્સ કંપની પાસેનો બનાવ, આકાશચૂંબી કાળાઘૂમ ધૂમાડાના ગોટેગોટા, ફાયરની ટીમ દોડી ગઈ",
-          "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/dhandhuka/news/sanand-viramgam-highway-godown-fire-attempts-control-reason-unknown-137710688.html",
-          "published_at": "2026-04-16T14:29:38+00:00"
+          "title": "દેત્રોજની ફેક્ટરીમાં ભીષણ આગથી ધૂમાડાના ગોટેગોટા: કાનપુરા રોડ પર ડનલોપ સીટની ફેક્ટરીમાં લાગેલી આગ ખેતરોમાં પ્રસરી, ફાયર બ્રિગેડની ટીમો દોડી ગઈ",
+          "url": "https://www.divyabhaskar.co.in/local/gujarat/mehsana/kadi/news/detroj-factory-fire-kanpura-road-dunlop-seat-factory-blaze-spreads-to-farms-137713283.html",
+          "published_at": "2026-04-16T19:50:58+00:00"
+        },
+        "article_2": {
+          "source": "TV9 Gujarati",
+          "title": "આખો ટ્રક બળી ગયો, અમદાવાદમાં ડનલોપ સીટ બનાવટી ફેક્ટરીમાં ભીષણ આગ, જુઓ Video",
+          "url": "https://tv9gujarati.com/videos/gujarat-videos/fire-breaks-out-at-dunlop-seat-factory-in-detroj-fire-brigade-mobilised-1429895.html",
+          "published_at": "2026-04-16T20:58:14+05:30"
+        },
+        "similarity_score": 0.3811,
+        "is_likely_duplicate": "False"
+      },
+      {
+        "article_1": {
+          "source": "Divya Bhaskar",
+          "title": "ઈરાન ઘૂંટણિયે પડ્યું, એનરિચ્ડ યુરેનિયમ સોંપવા તૈયાર: ટ્રમ્પે કહ્યું- બંને દેશ સીઝફાયરની નજીક, ઈસ્લામાબાદમાં ડીલ સાઈન થઈ તો હું પાકિસ્તાન જઈશ",
+          "url": "https://www.divyabhaskar.co.in/international/news/israel-lebanon-truce-trump-negotiation-137714439.html",
+          "published_at": "2026-04-17T00:05:00+00:00"
+        },
+        "article_2": {
+          "source": "TV9 Gujarati",
+          "title": "Breaking News: મધ્ય પૂર્વમાં શાંતિની આશા! ઇઝરાયેલ અને લેબનોન વચ્ચે 10 દિવસ માટે યુદ્ધ વિરામ; શું ડોનાલ્ડ ટ્રમ્પની મધ્યસ્થી લાવી મોટું પરિણામ....?",
+          "url": "https://tv9gujarati.com/international-news/israel-lebanon-ceasefire-donald-trump-announces-10-day-truce-after-us-mediation-what-it-means-for-middle-east-peace-efforts-1429939.html",
+          "published_at": "2026-04-16T21:56:15+05:30"
+        },
+        "similarity_score": 0.377,
+        "is_likely_duplicate": "False"
+      },
+      {
+        "article_1": {
+          "source": "Divya Bhaskar",
+          "title": "7 વિકેટે જીતી પંજાબ કિંગ્સ ટેબલ ટોપર બની: સતત ચાર મેચ હારી હાર્દિકની ટીમ ભગવાન ભરોષે, પ્રભસિમરન-અય્યરે મુંબઈને રોવડાવ્યું; અર્શદીપની 3 વિકેટ",
+          "url": "https://www.divyabhaskar.co.in/sports/cricket/news/hardik-pandya-ipl-2026-mi-vs-pbks-suryakumar-yadav-jasprit-bumrah-shreyas-iyer-yuzvendra-chahal-137705786.html",
+          "published_at": "2026-04-16T06:24:00+00:00"
         },
         "article_2": {
           "source": "News18 Gujarati",
-          "title": "Fire Broke Out In Scrap Godown Of Kirloskar Brothers Sanand Viramgam Highway Chharoda Village Vz 2503052",
-          "url": "https://gujarati.news18.com/videos/ahmedabad/fire-broke-out-in-scrap-godown-of-kirloskar-brothers-sanand-viramgam-highway-chharoda-village-vz-2503052.html",
-          "published_at": "2026-04-16T18:11:00+05:30"
+          "title": "Mi Vs Pbks Captain Hardik Pandya Reaction After Ask Jasprit Bumrah Fielding Setup Tj 2503331",
+          "url": "https://gujarati.news18.com/news/sport/mi-vs-pbks-captain-hardik-pandya-reaction-after-ask-jasprit-bumrah-fielding-setup-tj-2503331.html",
+          "published_at": "2026-04-17T09:38:02+05:30"
         },
-        "similarity_score": 0.3682,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "TV9 Gujarati",
-          "title": "Gold-Silver Rate Today: સોનાના ભાવમાં વધારો, ચાંદીની ચમક થઇ ઓછી, જાણો તમારા શહેરના ભાવ",
-          "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-15-april-2026-gold-ahmedavad-mumbai-delhi-price-1429026.html",
-          "published_at": "2026-04-15T10:23:49+05:30"
-        },
-        "article_2": {
-          "source": "ABP Gujarati",
-          "title": "Silver Latest Rate News Gold Silver Price Today 16 April 2026 Live Updates Check India City Wise Gold Silver Rate 24 Carat 22 Carat 977512",
-          "url": "https://gujarati.abplive.com/news/business/silver-latest-rate-news-gold-silver-price-today-16-april-2026-live-updates-check-india-city-wise-gold-silver-rate-24-carat-22-carat-977512",
-          "published_at": "2026-04-16T11:18:51+05:30"
-        },
-        "similarity_score": 0.3666,
+        "similarity_score": 0.3738,
         "is_likely_duplicate": "False"
       },
       {
         "article_1": {
           "source": "Divya Bhaskar",
-          "title": "મોદી બોલ્યા- મહિલા અનામત પર વિપક્ષ ક્રેડિટ લે: પ્રિયંકા બોલ્યાં- ભ્રમિત કરનારા પુરુષોને મહિલાઓ ઓળખી લે છે; અમિત શાહ બોલ્યા- સીમાંકનથી દક્ષિણને ફાયદો",
-          "url": "https://www.divyabhaskar.co.in/national/news/parliament-seats-increase-543-to-850-2029-election-137709264.html",
-          "published_at": "2026-04-16T09:20:52+00:00"
+          "title": "ઈરાન ઘૂંટણિયે પડ્યું, એનરિચ્ડ યુરેનિયમ સોંપવા તૈયાર: ટ્રમ્પે કહ્યું- બંને દેશ સીઝફાયરની નજીક, ઈસ્લામાબાદમાં ડીલ સાઈન થઈ તો હું પાકિસ્તાન જઈશ",
+          "url": "https://www.divyabhaskar.co.in/international/news/israel-lebanon-truce-trump-negotiation-137714439.html",
+          "published_at": "2026-04-17T00:05:00+00:00"
         },
         "article_2": {
           "source": "ABP Gujarati",
-          "title": "Indian Bill News Women Reservation Bill Lok Sabha Seats For All States Increased By 50 Percent 272 Reserved For Women Law Minister 977536",
-          "url": "https://gujarati.abplive.com/news/india/indian-bill-news-women-reservation-bill-lok-sabha-seats-for-all-states-increased-by-50-percent-272-reserved-for-women-law-minister-977536",
-          "published_at": "2026-04-16T14:18:21+05:30"
+          "title": "Lebanon And Israel Reunite After 34 Years Trump Announces Ceasefire 977595",
+          "url": "https://gujarati.abplive.com/news/world/lebanon-and-israel-reunite-after-34-years-trump-announces-ceasefire-977595",
+          "published_at": "2026-04-17T07:30:00+05:30"
         },
-        "similarity_score": 0.3662,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "News18 Gujarati",
-          "title": "Sardar Sarovar Narmada Dam Water Level Increase As Mp Release Water Vz 2502529",
-          "url": "https://gujarati.news18.com/videos/narmada/sardar-sarovar-narmada-dam-water-level-increase-as-mp-release-water-vz-2502529.html",
-          "published_at": "2026-04-16T11:59:00+05:30"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "ઉનાળામાં સરદાર સરોવર નર્મદા ડેમની સપાટીમાં વધારો",
-          "url": "https://tv9gujarati.com/videos/short-videos/good-news-for-gujarat-in-summer",
-          "published_at": "2026-04-16T15:32:03+05:30"
-        },
-        "similarity_score": 0.361,
-        "is_likely_duplicate": "False"
-      },
-      {
-        "article_1": {
-          "source": "Divya Bhaskar",
-          "title": "ભુજના લોડાઇ ગામે પાણીપુરી ખાધા બાદ 36 લોકોને ફૂડ પોઇઝનિંગ: તમામ હોસ્પિટલમાં સારવાર હેઠળ, આરોગ્ય વિભાગમાં દોડધામ મચી",
-          "url": "https://www.divyabhaskar.co.in/local/gujarat/kutch/gandhidham/news/bhuj-lodai-food-poisoning-36-hospitalized-137712835.html",
-          "published_at": "2026-04-16T19:07:34+00:00"
-        },
-        "article_2": {
-          "source": "TV9 Gujarati",
-          "title": "શું ભેળવ્યું હશે બોલો.. ગુજરાતના આ જિલ્લામાં પાણીપુરી ખાધા બાદ 100 થી વધુ લોકોને થયું ફૂડ પોઈઝનિંગ, જુઓ Video",
-          "url": "https://tv9gujarati.com/videos/gujarat-videos/pani-puri-tragedy-in-lodai-kutch-100-hospitalised-due-to-food-poisoning-1429860.html",
-          "published_at": "2026-04-16T19:58:50+05:30"
-        },
-        "similarity_score": 0.3575,
+        "similarity_score": 0.3715,
         "is_likely_duplicate": "False"
       }
     ],
@@ -1285,31 +981,328 @@
         "articles": [
           {
             "source": "Divya Bhaskar",
-            "title": "ઈઝરાયલ-લેબનોન વચ્ચે 10 દિવસનો યુદ્ધવિરામ: ટ્રુથ સોશિયલ પર ટ્રમ્પની જાહેરાત;આજે રાત્રે 2-30 વાગ્યાથી શરૂ થશે; US બોલ્યું- ઈરાને ડીલ ન માની તો ફરી યુદ્ધ",
-            "url": "https://www.divyabhaskar.co.in/international/news/israel-lebanon-truce-trump-negotiation-137714439.html",
-            "published_at": "2026-04-17T00:05:00+00:00"
+            "title": "‘જો ભૂપતવાળી કરશો તો જનતા વિસાવદરવાળી કરશે’: તકલીફમાં આવ્યા નહીં ને અત્યારે લશ્કર લઈ નીકળી પડ્યા, અમદાવાદમાં ભાજપ ભગાવોના નારા લાગ્યા",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/gujarat-local-body-polls-parties-adopt-tough-tactics-for-power-137714076.html",
+            "published_at": "2026-04-17T08:00:00+00:00"
           },
           {
             "source": "Divya Bhaskar",
-            "title": "ઈઝરાયલ-લેબનોન વચ્ચે 10 દિવસનો યુદ્ધવિરામ: ટ્રુથ સોશિયલ પર ટ્રમ્પની જાહેરાત;આજે રાત્રે 2-30 વાગ્યાથી શરૂ થશે; US બોલ્યું- ઈરાને ડીલ ન માની તો ફરી યુદ્ધ",
-            "url": "https://www.divyabhaskar.co.in/international/news/iran-threatens-shut-red-sea-oman-gulf-persian-gulf-137705892.html",
-            "published_at": "2026-04-16T00:05:00+00:00"
+            "title": "‘તકલીફમાં આવ્યા નહીં ને અત્યારે લશ્કર લઈ નીકળી પડ્યા’: વોટ માંગવા આવતા શરમ આવવી જોઈએ, અસારવાની સોસાયટીઓમાં ભાજપ ભગાવોના નારા લાગ્યા",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/asarwa-ward-bjp-protest-voted-shame-leaders-gujarat-137717776.html",
+            "published_at": "2026-04-17T10:33:53+00:00"
           }
         ],
         "top_keywords": [
-          "ઈઝરાયલ-લેબનોન",
-          "વચ્ચે",
-          "દિવસનો",
-          "યુદ્ધવિરામ",
-          "ટ્રુથ",
-          "સોશિયલ",
-          "ટ્રમ્પની",
-          "જાહેરાત",
-          "આજે",
-          "રાત્રે"
+          "gujarat",
+          "local",
+          "elections,",
+          "તકલીફમાં",
+          "આવ્યા",
+          "નહીં",
+          "અત્યારે",
+          "લશ્કર",
+          "નીકળી",
+          "ભાજપ"
         ]
       },
       "3": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "તેરવાડામાં જિલ્લા પંચાયત કાર્યાલયનું ઉદ્ઘાટન: સરપંચ હરદાસજી ઠાકોરે દીપ પ્રાગટ્ય કરી ખુલ્લું મૂક્યું",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/banaskantha/kankrej/news/tervada-district-panchayat-office-inaugurated-by-sarpanch-hardasji-thakor-137717483.html",
+            "published_at": "2026-04-17T09:14:20+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "શિહોરી જિલ્લા પંચાયત સીટના કાર્યાલયનું ઉદ્ઘાટન: કાંકરેજના ચેખલામાં ગુજરાત ભાજપ ઉપાધ્યક્ષ નટુજી ઠાકોરે કર્યું",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/banaskantha/kankrej/news/kankrej-chekhla-gujarat-bjp-vp-natuji-thakor-inaugurates-office-137713063.html",
+            "published_at": "2026-04-16T19:30:53+00:00"
+          }
+        ],
+        "top_keywords": [
+          "જિલ્લા",
+          "પંચાયત",
+          "કાર્યાલયનું",
+          "ઉદ્ઘાટન",
+          "ઠાકોરે",
+          "district",
+          "inauguration,",
+          "thakor,",
+          "gujarat",
+          "office"
+        ]
+      },
+      "4": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "પોલીસની સરાહનીય કામગીરી: પરિવારથી વિખૂટા પડેલા દિવ્યાંગનું પુન: મિલન",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/sabarkantha/news/reunion-of-disabled-people-separated-from-their-families-dbp-137717004.html",
+            "published_at": "2026-04-17T06:31:41+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "પોલીસની સરાહનીય કામગીરી: ખાનગી ગાડીમાં ભુલાઈ ગયેલી બેગ પોલીસે યુવકને પરત અપાવી",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/mehsana/news/police-return-bag-to-young-man-after-forgetting-it-in-private-car-dbp-137716960.html",
+            "published_at": "2026-04-17T05:52:19+00:00"
+          }
+        ],
+        "top_keywords": [
+          "પોલીસની",
+          "સરાહનીય",
+          "કામગીરી",
+          "divyabhaskar",
+          "પરિવારથી",
+          "વિખૂટા",
+          "પડેલા",
+          "દિવ્યાંગનું",
+          "પુન",
+          "મિલન"
+        ]
+      },
+      "5": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "ચૂંટણી બહિષ્કારની ચીમકી‎: ડીસાની જોખમનગર સોસાયટીમાં રોડ લાઈટ મુદ્દે ચૂંટણી બહિષ્કારનો નિર્ણય",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/banaskantha/deesa/news/decision-to-boycott-elections-in-deesas-biswasnagar-society-over-road-light-issue-dbp-137716972.html",
+            "published_at": "2026-04-17T06:09:18+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "વિરોધ: મેઘપર ટીટોડી ગામે માર્ગ પ્રશ્ને મતદાનના બહિષ્કારનો નિર્ણય",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/dwarka/khambhaliya/news/decision-to-boycott-voting-in-meghpar-titodi-village-over-road-issue-dbp-137714271.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "ચૂંટણી",
+          "બહિષ્કારનો",
+          "નિર્ણય",
+          "divyabhaskar",
+          "બહિષ્કારની",
+          "ચીમકી",
+          "ડીસાની",
+          "જોખમનગર",
+          "સોસાયટીમાં",
+          "રોડ"
+        ]
+      },
+      "6": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "ભાસ્કર એક્સક્લુસિવ: મનપા ચૂંટણીમાં ધો. 4થી પોસ્ટ ગ્રેજ્યુએટ ઉમેદવારો મેદાનમાં",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/mehsana/news/std-4-and-post-graduate-candidates-in-fray-for-municipal-elections-dbp-137716948.html",
+            "published_at": "2026-04-17T05:45:24+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "ચૂંટણીનું ચિત્ર સ્પષ્ટ‎: સુરત જિલ્લામાં 4 પાલિકાની 116 બેઠકો પર 224 ઉમેદવાર મેદાનમાં",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/surat/bardoli/news/224-candidates-in-fray-for-116-seats-in-4-municipalities-in-surat-district-dbp-137715493.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "મેદાનમાં",
+          "divyabhaskar",
+          "ભાસ્કર",
+          "એક્સક્લુસિવ",
+          "મનપા",
+          "ચૂંટણીમાં",
+          "ધો.",
+          "4થી",
+          "પોસ્ટ",
+          "ગ્રેજ્યુએટ"
+        ]
+      },
+      "7": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "RTE પ્રવેશ: RTEની 4095 અરજીમાંથી 2575 મંજૂર, 696 કેન્સલ અને 427 પેન્ડિંગ",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/mehsana/news/out-of-4095-applications-from-rte-2575-approved-696-cancelled-and-427-pending-dbp-137716936.html",
+            "published_at": "2026-04-17T05:39:26+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "RTE હેઠળ પ્રવેશ પ્રક્રિયા: આરટીઇ પ્રવેશ માટે 6306 અરજી , આજે અંતિમ દિવસ‎",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/bharuch/news/6306-applications-for-rte-admission-today-is-the-last-day-dbp-137716041.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "પ્રવેશ",
+          "rte",
+          "divyabhaskar",
+          "rteની",
+          "4095",
+          "અરજીમાંથી",
+          "2575",
+          "મંજૂર,",
+          "696",
+          "કેન્સલ"
+        ]
+      },
+      "8": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "દારૂનો મોટો જથ્થો પકડાયો: દાહોદ જિલ્લામાં ત્રણ સ્થળેથી 13.39 લાખનો મુદ્દામાલ જપ્ત‎",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/dahod/news/goods-worth-rs-1339-lakh-seized-from-three-places-in-dahod-district-dbp-137716217.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "કાર્યવાહી: પોલીસને જોતાં જ બૂટલેગર રિક્ષા રેઢી મૂકી ફરાર: 1.93 લાખનો મુદ્દામાલ જપ્ત",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/rajkot/news/bootlegger-flees-after-abandoning-rickshaw-on-seeing-police-goods-worth-rs-193-lakh-seized-dbp-137715049.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "લાખનો",
+          "મુદ્દામાલ",
+          "જપ્ત",
+          "divyabhaskar",
+          "દારૂનો",
+          "મોટો",
+          "જથ્થો",
+          "પકડાયો",
+          "દાહોદ",
+          "જિલ્લામાં"
+        ]
+      },
+      "9": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "આયોજન: મહુવામાં વર્ષીતપના પારણા મહોત્સવનો આરંભ",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/bhavnagar/news/the-parana-mahotsav-of-varshitap-begins-in-mahuva-dbp-137715408.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "જૈન સમાજ 20મીએ ઉજવશે અખાત્રીજ: વર્ષીતપના પારણાનો મહોત્સવ, કઠિન સાધનાની થશે પૂર્ણાહુતિ",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/rajkot/news/jain-community-will-celebrate-akhatriya-on-the-20th-dbp-137715165.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "વર્ષીતપના",
+          "divyabhaskar",
+          "આયોજન",
+          "મહુવામાં",
+          "પારણા",
+          "મહોત્સવનો",
+          "આરંભ",
+          "જૈન",
+          "સમાજ",
+          "20મીએ"
+        ]
+      },
+      "10": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "શિક્ષણ: CBSEનો ધો.10ની બીજી પરીક્ષાનો કાર્યક્રમ જાહેર, મે મહિનામાં ફરી પરીક્ષા આપીને માર્ક્સ સુધારી શકાશે",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/rajkot/news/cbse-announces-schedule-for-class-10th-second-exam-marks-can-be-improved-by-re-taking-the-exam-in-may-dbp-137715190.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "શિક્ષણ: CBSEના ધોરણ-10ના પરિણામથી અસંતુષ્ટ, નાપાસ વિદ્યાર્થીને બીજી તક",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/dissatisfied-with-cbse-class-10th-results-failed-student-gets-second-chance-dbp-137714938.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "શિક્ષણ",
+          "બીજી",
+          "divyabhaskar",
+          "cbseનો",
+          "ધો.10ની",
+          "પરીક્ષાનો",
+          "કાર્યક્રમ",
+          "જાહેર,",
+          "મહિનામાં",
+          "ફરી"
+        ]
+      },
+      "11": {
+        "article_count": 2,
+        "sources": [
+          "Divya Bhaskar"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "Divya Bhaskar",
+            "title": "આત્મહત્યા: પતિ સાથે રકઝકથી ડુંગરપુરની મહિલાએ ઝેર પી જીવન ટૂંકાવ્યું",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/junagadh/news/dungarpur-woman-ends-life-by-consuming-poison-after-quarrel-with-husband-dbp-137714558.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          },
+          {
+            "source": "Divya Bhaskar",
+            "title": "આત્મહત્યા: મધદરિયામાં માછીમાર યુવકે ફાંસો ખાધો, મૃત્યુ",
+            "url": "https://www.divyabhaskar.co.in/local/gujarat/dwarka/news/young-fisherman-dies-after-being-caught-in-a-fishing-net-in-the-mediterranean-dbp-137714257.html",
+            "published_at": "2026-04-17T05:30:00+00:00"
+          }
+        ],
+        "top_keywords": [
+          "આત્મહત્યા",
+          "divyabhaskar",
+          "પતિ",
+          "સાથે",
+          "રકઝકથી",
+          "ડુંગરપુરની",
+          "મહિલાએ",
+          "ઝેર",
+          "જીવન",
+          "ટૂંકાવ્યું"
+        ]
+      },
+      "12": {
         "article_count": 2,
         "sources": [
           "Divya Bhaskar"
@@ -1342,41 +1335,7 @@
           "illegal"
         ]
       },
-      "4": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar",
-          "TV9 Gujarati"
-        ],
-        "source_count": 2,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "દેત્રોજની ફેક્ટરીમાં ભીષણ આગથી ધૂમાડાના ગોટેગોટા: કાનપુરા રોડ પર ડનલોપ સીટની ફેક્ટરીમાં લાગેલી આગ ખેતરોમાં પ્રસરી, ફાયર બ્રિગેડની ટીમો દોડી ગઈ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/mehsana/kadi/news/detroj-factory-fire-kanpura-road-dunlop-seat-factory-blaze-spreads-to-farms-137713283.html",
-            "published_at": "2026-04-16T19:50:58+00:00"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "આખો ટ્રક બળી ગયો, અમદાવાદમાં ડનલોપ સીટ બનાવટી ફેક્ટરીમાં ભીષણ આગ, જુઓ Video",
-            "url": "https://tv9gujarati.com/videos/gujarat-videos/fire-breaks-out-at-dunlop-seat-factory-in-detroj-fire-brigade-mobilised-1429895.html",
-            "published_at": "2026-04-16T20:58:14+05:30"
-          }
-        ],
-        "top_keywords": [
-          "fire,",
-          "news,",
-          "gujarati",
-          "ફેક્ટરીમાં",
-          "ડનલોપ",
-          "dunlop",
-          "આગ,",
-          "news",
-          "ભીષણ",
-          "detroj"
-        ]
-      },
-      "5": {
+      "13": {
         "article_count": 2,
         "sources": [
           "Divya Bhaskar"
@@ -1409,7 +1368,7 @@
           "scrap"
         ]
       },
-      "6": {
+      "14": {
         "article_count": 2,
         "sources": [
           "Divya Bhaskar"
@@ -1442,7 +1401,7 @@
           "parshuram"
         ]
       },
-      "7": {
+      "15": {
         "article_count": 2,
         "sources": [
           "Divya Bhaskar"
@@ -1475,40 +1434,7 @@
           "awareness,"
         ]
       },
-      "8": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "નાયબ મુખ્યમંત્રી હર્ષ સંઘવી ઘોઘંબાની મુલાકાતે: પરોલીમાં મેલડી મંદિરે દર્શન કર્યા, બાઈક રેલીમાં જોડાયા",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/panchmahal/ghoghamba/news/harsh-sanghvi-visits-paroli-meldi-mandir-bike-rally-ghoghamba-137713015.html",
-            "published_at": "2026-04-16T19:26:08+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ડેપ્યુટી સીએમ હર્ષ સંઘવી ઘોઘંબા આવશે: ભાજપ સંગઠન દ્વારા ભવ્ય સ્વાગતની તૈયારીઓ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/panchmahal/ghoghamba/news/deputy-cm-harsh-sanghvi-visit-ghoghamba-bjp-prepares-grand-welcome-137709263.html",
-            "published_at": "2026-04-16T09:20:19+00:00"
-          }
-        ],
-        "top_keywords": [
-          "gujarat",
-          "visit,",
-          "હર્ષ",
-          "સંઘવી",
-          "harsh",
-          "sanghvi,",
-          "ghoghamba,",
-          "politics,",
-          "deputy",
-          "sanghvi"
-        ]
-      },
-      "9": {
+      "16": {
         "article_count": 2,
         "sources": [
           "Divya Bhaskar"
@@ -1541,7 +1467,7 @@
           "gujarat"
         ]
       },
-      "10": {
+      "17": {
         "article_count": 2,
         "sources": [
           "Divya Bhaskar"
@@ -1574,784 +1500,24 @@
           "chetan"
         ]
       },
-      "11": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "સેન્સેક્સ 123 પોઈન્ટ ઘટીને 77,989 પર બંધ: નિફ્ટી પણ 35 પોઈન્ટ ઘટીને 24,197 પર આવ્યો; ઓટો શેરોમાં સૌથી વધુ વેચવાલી",
-            "url": "https://www.divyabhaskar.co.in/business/news/nifty-sensex-rise-it-realty-pharma-stocks-gain-24385-78678-137709331.html",
-            "published_at": "2026-04-16T09:38:51+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ઈન્વેસ્ટમેન્ટ પોઈન્ટ- બુધવાર શેરબજાર માટે તેજીમય રહ્યો: વૈશ્વિક પરિબળો વચ્ચે ભારતીય બજારની તેજી તરફી આગેકૂચ",
-            "url": "https://www.divyabhaskar.co.in/business/news/indian-market-rallies-global-factors-investment-point-137705864.html",
-            "published_at": "2026-04-16T00:05:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "stocks,",
-          "market",
-          "પોઈન્ટ",
-          "ઘટીને",
-          "nifty,",
-          "sensex,",
-          "stock",
-          "indian",
-          "realty",
-          "સેન્સેક્સ"
-        ]
-      },
-      "12": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "વાલિયામાં 70 ઉમેદવારો ચૂંટણી લડશે: ત્રણ જિલ્લા પંચાયત, 16 તાલુકા પંચાયત બેઠકો પર સ્પર્ધા",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/bharuch/valia/news/valia-panchayat-election-contest-70-candidates-filed-137710108.html",
-            "published_at": "2026-04-16T12:38:39+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "કાંકરેજમાં સ્થાનિક સ્વરાજ્ય ચૂંટણી, 5 બેઠકો બિનહરીફ: એક જિલ્લા પંચાયત અને ચાર તાલુકા પંચાયત બેઠકો પર ઉમેદવારો બિનહરીફ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/banaskantha/kankrej/news/kankrej-election-bypoll-seats-declared-uncontested-137709184.html",
-            "published_at": "2026-04-16T08:58:43+00:00"
-          }
-        ],
-        "top_keywords": [
-          "panchayat",
-          "election,",
-          "પંચાયત",
-          "બેઠકો",
-          "ઉમેદવારો",
-          "જિલ્લા",
-          "તાલુકા",
-          "gujarat",
-          "local",
-          "body"
-        ]
-      },
-      "13": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "સાગબારામાં AAPની જનસભાઓ યોજાઈ: સ્થાનિક ચૂંટણી માટે ધારાસભ્ય ચૈતર વસાવા હાજર રહ્યા",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/narmada/sagbara/news/sagbara-mla-chaitar-vasava-attends-local-election-rallies-137709846.html",
-            "published_at": "2026-04-16T11:48:24+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ધારાસભ્ય ચૈતર વસાવાએ સાગબારામાં ડોર-ટુ-ડોર મુલાકાત કરી: સ્થાનિક સ્વરાજ્યની ચૂંટણી પહેલા મતદારોનો સંપર્ક સાધ્યો",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/narmada/sagbara/news/chaitar-vasava-door-to-door-visit-sagbara-election-contact-137709411.html",
-            "published_at": "2026-04-16T10:04:58+00:00"
-          }
-        ],
-        "top_keywords": [
-          "સાગબારામાં",
-          "સ્થાનિક",
-          "ચૂંટણી",
-          "ધારાસભ્ય",
-          "ચૈતર",
-          "chaitar",
-          "vasava,",
-          "sagbara,",
-          "local",
-          "election,"
-        ]
-      },
-      "14": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "ચૂંટણીનું સમીકરણ: પાટણ પાલિકાની 44 બેઠક માટે 114 ઉમેદવારો‎મેદાનમાં, ગત ચૂંટણી કરતાં 71 ઉમેદવારો ઘટ્યા‎",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/patan/news/114-candidates-in-the-fray-for-44-seats-of-patan-municipality-71-candidates-less-than-in-the-last-election-dbp-137708811.html",
-            "published_at": "2026-04-16T07:05:53+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ચૂંટણીનું સમીકરણ: ગોધરા નગર પાલિકાની 44‎ પૈકી 4 સ્ત્રી બેઠકો બિનહરીફ‎",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/panchmahal/news/4-out-of-44-women-seats-in-godhra-municipal-corporation-are-uncontested-dbp-137707832.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "ચૂંટણીનું",
-          "સમીકરણ",
-          "પાલિકાની",
-          "ઉમેદવારો",
-          "divyabhaskar",
-          "પાટણ",
-          "બેઠક",
-          "માટે",
-          "114",
-          "મેદાનમાં,"
-        ]
-      },
-      "15": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "ગમખ્વાર અકસ્માત સર્જાયો: સાત બાળકો સહિત ઈજાગ્રસ્તોને સારવાર માટે હોસ્પિટલમાં ખસેડાયા",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/banaskantha/dhanera/news/the-injured-including-seven-children-were-taken-to-the-hospital-for-treatment-dbp-137708796.html",
-            "published_at": "2026-04-16T06:51:38+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ગમખ્વાર અકસ્માત સર્જાયો: પાદરા પાસે મુવાલ-મોભા રોડ પર 2 વાહનો ટકરાયા, યુવાનનું મોત",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/vadodara/padra/news/2-vehicles-collided-on-muwal-mobha-road-near-padra-youth-died-dbp-137708068.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "ગમખ્વાર",
-          "અકસ્માત",
-          "સર્જાયો",
-          "divyabhaskar",
-          "સાત",
-          "બાળકો",
-          "સહિત",
-          "ઈજાગ્રસ્તોને",
-          "સારવાર",
-          "માટે"
-        ]
-      },
-      "16": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "સિટી એન્કર: ઐતિહાસિક પળ: હવે સિંધી ભાષામાં પણ ભારતનું બંધારણ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/kutch/gandhidham/news/historic-moment-now-the-constitution-of-india-is-also-in-sindhi-language-dbp-137708769.html",
-            "published_at": "2026-04-16T06:23:05+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "સિટી એન્કર: સાતાંક્રુઝ,ગોરેગાવ, મુલુંડમાં PPP ધોરણે 3 ડાયાલિસિસ સેંટર",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/mumbai/news/3-dialysis-centers-on-ppp-basis-in-satancruz-goregaon-mulund-dbp-137707519.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "સિટી",
-          "એન્કર",
-          "divyabhaskar",
-          "ઐતિહાસિક",
-          "હવે",
-          "સિંધી",
-          "ભાષામાં",
-          "ભારતનું",
-          "બંધારણ",
-          "સાતાંક્રુઝ,ગોરેગાવ,"
-        ]
-      },
-      "17": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "ચૂંટણીનું સમીકરણ: કોંગ્રેસના ઉમેદવારોએ ફોર્મ પાછા ખેંચ્યા બાદ જિલ્લા પંચાયતની ચાર બેઠકો બિનહરીફ થઈ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/vadodara/news/four-district-panchayat-seats-go-uncontested-after-congress-candidates-withdraw-their-forms-dbp-137708699.html",
-            "published_at": "2026-04-16T05:51:18+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ચૂંટણીનું સમીકરણ: નસવાડી તાલુકા પંચાયતની 22 બેઠકો માટે 66, જિલ્લા પંચાયતની પાંચ બેઠક માટે 17 મેદાનમાં",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/chhota-udaipur/nasvadi/news/66-candidates-in-fray-for-22-seats-of-naswadi-taluka-panchayat-17-for-five-seats-of-district-panchayat-dbp-137708026.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "પંચાયતની",
-          "ચૂંટણીનું",
-          "સમીકરણ",
-          "જિલ્લા",
-          "બેઠકો",
-          "divyabhaskar",
-          "માટે",
-          "કોંગ્રેસના",
-          "ઉમેદવારોએ",
-          "ફોર્મ"
-        ]
-      },
       "18": {
         "article_count": 2,
         "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "ચૂંટણી ચિત્ર સ્પષ્ટ: જિલ્લામાં ફોર્મ ખેંચવાની પ્રક્રિયા બાદ હવે જંગ ખરાખરીનો",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/surendranagar/news/after-the-process-of-drawing-forms-in-the-district-the-battle-is-now-at-its-peak-dbp-137708532.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "માંડવી નગરપાલિકા ચૂંટણીનું ચિત્ર સ્પષ્ટ: 6 વોર્ડમાં 48 ઉમેદવારો વચ્ચે ખરાખરીનો જંગ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/surat/bardoli/news/the-picture-of-mandvi-municipality-elections-is-clear-dbp-137707717.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "ચિત્ર",
-          "સ્પષ્ટ",
-          "જંગ",
-          "ખરાખરીનો",
-          "divyabhaskar",
-          "ચૂંટણી",
-          "જિલ્લામાં",
-          "ફોર્મ",
-          "ખેંચવાની",
-          "પ્રક્રિયા"
-        ]
-      },
-      "19": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "પગારમાં અનિયમિતતાથી શિક્ષકોમાં નારાજગી: અડધો એપ્રિલ મહિનો વીત્યા છતાં સિહોર તાલુકાના 800 શિક્ષકો પગારથી હજુ વંચિત",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/bhavnagar/news/even-after-half-of-april-800-teachers-of-sihor-taluka-are-still-deprived-of-their-salaries-dbp-137707329.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "શિક્ષકોમાં રોષ: અડધો મહિનો વીતી ગયા છતાં શિક્ષકો પગાર વિહોણા",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/jamnagar/news/even-after-half-a-month-teachers-are-still-without-salaries-dbp-137706376.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "શિક્ષકોમાં",
-          "અડધો",
-          "મહિનો",
-          "છતાં",
-          "શિક્ષકો",
-          "divyabhaskar",
-          "પગારમાં",
-          "અનિયમિતતાથી",
-          "નારાજગી",
-          "એપ્રિલ"
-        ]
-      },
-      "20": {
-        "article_count": 3,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "આપઘાતનો પ્રયાસ: ગૃહકંકાસથી કંટાળી પ્રૌઢાએ ઝેરી દવા પીધી",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/rajkot/news/tired-of-housebreaking-elderly-woman-drinks-poison-dbp-137707054.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "તપાસ: ઔરંગાબાદના વેપારીઓના ત્રાસથી કંટાળી રાજકોટના સોની દંપતીનો કુવાડવા પાસે સજોડે આપઘાતનો પ્રયાસ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/rajkot/news/tired-of-being-harassed-by-aurangabad-traders-a-soni-couple-from-rajkot-attempted-suicide-near-kuwadwa-dbp-137707048.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "આપઘાતનો પ્રયાસ: ઘરકંકાસથી કંટાળી રત્નકલાકારની પત્નીએ પાંચ અને છ વર્ષીય પુત્રીને ઝેર આપી પોતે પણ પીધું, પતિને જાણ કરી",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/surat/news/tired-of-the-housework-the-wife-of-a-jeweler-poisoned-her-five-and-six-year-old-daughters-and-drank-it-herself-informed-her-husband-dbp-137706671.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "આપઘાતનો",
-          "પ્રયાસ",
-          "કંટાળી",
-          "divyabhaskar",
-          "ગૃહકંકાસથી",
-          "પ્રૌઢાએ",
-          "ઝેરી",
-          "દવા",
-          "પીધી",
-          "તપાસ"
-        ]
-      },
-      "21": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "ગૌરવ પંડયાના એક્સ પર ભાજપ રાજ સામે પ્રહાર કર્યો: ઉમરગામ તાલુકા મામલતદારના આપઘાત કેસમાં તપાસની માગ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/valsad/news/bjp-raj-attacked-gaurav-pandyas-x-dbp-137706936.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ભાસ્કર ફોલોઅપ: ઉમરગામના મામલતદારને આપઘાત માટે મજબૂર કરવા કોલ કરનાર નેતાઓ ભેરવાશે",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/valsad/umbergaon/news/leaders-who-called-to-force-umargam-mamlatdar-to-commit-suicide-will-be-punished-dbp-137706892.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "આપઘાત",
-          "divyabhaskar",
-          "ગૌરવ",
-          "પંડયાના",
-          "એક્સ",
-          "ભાજપ",
-          "રાજ",
-          "સામે",
-          "પ્રહાર",
-          "કર્યો"
-        ]
-      },
-      "22": {
-        "article_count": 2,
-        "sources": [
-          "Divya Bhaskar"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "Divya Bhaskar",
-            "title": "ભાસ્કર એનાલિસિસ: વાપી મનપાની 51 બેઠકો માટે 120 ઉમેદવારો મેદાને, માત્ર એક બેઠક ભાજપની બિનહરિફ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/valsad/vapi/news/120-candidates-in-fray-for-51-seats-of-vapi-municipality-only-one-seat-is-unopposed-by-bjp-dbp-137706878.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          },
-          {
-            "source": "Divya Bhaskar",
-            "title": "ચૂંટણી સંગ્રામ: હાલારમાં 379 બેઠકો માટે 1160 ઉમેદવારો વચ્ચે ચૂંટણી જંગ જામશે,14 બેઠક ભાજપને બીનહરીફ",
-            "url": "https://www.divyabhaskar.co.in/local/gujarat/jamnagar/news/election-battle-will-be-fought-between-1160-candidates-for-379-seats-in-halar-14-seats-will-go-unopposed-to-bjp-dbp-137706373.html",
-            "published_at": "2026-04-16T05:30:00+00:00"
-          }
-        ],
-        "top_keywords": [
-          "બેઠકો",
-          "માટે",
-          "ઉમેદવારો",
-          "બેઠક",
-          "divyabhaskar",
-          "ચૂંટણી",
-          "ભાસ્કર",
-          "એનાલિસિસ",
-          "વાપી",
-          "મનપાની"
-        ]
-      },
-      "23": {
-        "article_count": 2,
-        "sources": [
           "News18 Gujarati"
         ],
         "source_count": 1,
         "articles": [
           {
             "source": "News18 Gujarati",
-            "title": "Do You Know Why Skin Wrinkles In Water Not Because Of Absorption Real Scientific Reason Exposed Pc Ws Bl 2503188",
-            "url": "https://gujarati.news18.com/photogallery/eye-catcher/do-you-know-why-skin-wrinkles-in-water-not-because-of-absorption-real-scientific-reason-exposed-pc-ws-bl-2503188.html",
-            "published_at": "2026-04-16T21:58:42+05:30"
+            "title": "Daily Love Horoscope 17 April 2026 For All Zodaic Signs Aaj Nu Love Rashifal By Astrologer Chirag Daruwalla Gh Dp Aa Ws B 2497844",
+            "url": "https://gujarati.news18.com/photogallery/dharm-bhakti/daily-love-horoscope-17-april-2026-for-all-zodaic-signs-aaj-nu-love-rashifal-by-astrologer-chirag-daruwalla-gh-dp-aa-ws-b-2497844.html",
+            "published_at": "2026-04-17T07:01:02+05:30"
           },
           {
             "source": "News18 Gujarati",
-            "title": "Do You Know Why Hospitals Use White Bedsheets Not Colored Amazing Reason Behind General Knowledge Pc Ws Bl 2503080",
-            "url": "https://gujarati.news18.com/photogallery/eye-catcher/do-you-know-why-hospitals-use-white-bedsheets-not-colored-amazing-reason-behind-general-knowledge-pc-ws-bl-2503080.html",
-            "published_at": "2026-04-16T19:28:30+05:30"
-          }
-        ],
-        "top_keywords": [
-          "you",
-          "know",
-          "why",
-          "not",
-          "reason",
-          "skin",
-          "wrinkles",
-          "water",
-          "because",
-          "absorption"
-        ]
-      },
-      "24": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati",
-          "ABP Gujarati"
-        ],
-        "source_count": 2,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Arshdeep Singh Becomes First Bowler Complete 100 Wickets For Punjab Kings Jg 2503208",
-            "url": "https://gujarati.news18.com/news/sport/arshdeep-singh-becomes-first-bowler-complete-100-wickets-for-punjab-kings-jg-2503208.html",
-            "published_at": "2026-04-16T21:33:46+05:30"
-          },
-          {
-            "source": "ABP Gujarati",
-            "title": "Arshdeep Singh Becomes Only Fifth Bowler To Complete 100 Wickets In Ipl 977578",
-            "url": "https://gujarati.abplive.com/sports/ipl/arshdeep-singh-becomes-only-fifth-bowler-to-complete-100-wickets-in-ipl-977578",
-            "published_at": "2026-04-16T21:53:03+05:30"
-          }
-        ],
-        "top_keywords": [
-          "arshdeep",
-          "singh",
-          "becomes",
-          "bowler",
-          "complete",
-          "100",
-          "wickets",
-          "first",
-          "for",
-          "punjab"
-        ]
-      },
-      "25": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Fire Broke Out In Scrap Godown Of Kirloskar Brothers Sanand Viramgam Highway Chharoda Village Vz 2503052",
-            "url": "https://gujarati.news18.com/videos/ahmedabad/fire-broke-out-in-scrap-godown-of-kirloskar-brothers-sanand-viramgam-highway-chharoda-village-vz-2503052.html",
-            "published_at": "2026-04-16T18:11:00+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Sanand Viramgam Highway Massive Fire Breaks Out In Scrap Godown Kp Ws Bl 2502580",
-            "url": "https://gujarati.news18.com/news/ahmedabad/sanand-viramgam-highway-massive-fire-breaks-out-in-scrap-godown-kp-ws-bl-2502580.html",
-            "published_at": "2026-04-16T12:50:34+05:30"
-          }
-        ],
-        "top_keywords": [
-          "fire",
-          "out",
-          "scrap",
-          "godown",
-          "sanand",
-          "viramgam",
-          "highway",
-          "broke",
-          "kirloskar",
-          "brothers"
-        ]
-      },
-      "26": {
-        "article_count": 6,
-        "sources": [
-          "News18 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Kitchen Gardening Trend Vegetable Price Hike Organic Home Farming Sr Local18 Ws Ab 2502821",
-            "url": "https://gujarati.news18.com/news/lifestyle/kitchen-gardening-trend-vegetable-price-hike-organic-home-farming-sr-local18-ws-ab-2502821.html",
-            "published_at": "2026-04-16T16:04:14+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Agriculture Moradabad Sesame Farming Subsidy 95 Per Kg Free Mini Kits Guidelines Sr Local18 Ws Ab 2502511",
-            "url": "https://gujarati.news18.com/photogallery/business/agriculture-moradabad-sesame-farming-subsidy-95-per-kg-free-mini-kits-guidelines-sr-local18-ws-ab-2502511.html",
-            "published_at": "2026-04-16T12:08:56+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Agriculture Bhagalpur Agriculture Scientist Tips Vegetable Root Pest Control Home Remedy Sr Local18 Ws Ab 2502455",
-            "url": "https://gujarati.news18.com/photogallery/business/agriculture-bhagalpur-agriculture-scientist-tips-vegetable-root-pest-control-home-remedy-sr-local18-ws-ab-2502455.html",
-            "published_at": "2026-04-16T11:29:17+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Agriculture Watermelon Muskmelon Farming Pest Control Tips Leaf Miner Fruit Fly Remedies Sr Local18 Ws Ab 2502440",
-            "url": "https://gujarati.news18.com/photogallery/business/agriculture-watermelon-muskmelon-farming-pest-control-tips-leaf-miner-fruit-fly-remedies-sr-local18-ws-ab-2502440.html",
-            "published_at": "2026-04-16T12:35:43+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Mahuva Housewife Anilaben Gujariya Success Story Pm Svanidhi Yojana Sr Local18 Ws B 2502331",
-            "url": "https://gujarati.news18.com/news/bhavnagar/mahuva-housewife-anilaben-gujariya-success-story-pm-svanidhi-yojana-sr-local18-ws-b-2502331.html",
-            "published_at": "2026-04-16T09:28:05+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Agriculture Farmer Sandeep Kumar Okra Farming High Profit Success Story Sr Local18 Ws Ab 2502305",
-            "url": "https://gujarati.news18.com/photogallery/business/agriculture-farmer-sandeep-kumar-okra-farming-high-profit-success-story-sr-local18-ws-ab-2502305.html",
-            "published_at": "2026-04-16T12:10:42+05:30"
-          }
-        ],
-        "top_keywords": [
-          "local18",
-          "agriculture",
-          "farming",
-          "vegetable",
-          "home",
-          "tips",
-          "pest",
-          "control",
-          "success",
-          "story"
-        ]
-      },
-      "27": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati",
-          "ABP Gujarati"
-        ],
-        "source_count": 2,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Personal Finance 8Th Pay Commission News Will The Basic Salary Increase From Rs 18000 To Rs 69000 Sv Ws A 2502568",
-            "url": "https://gujarati.news18.com/photogallery/business/personal-finance-8th-pay-commission-news-will-the-basic-salary-increase-from-rs-18000-to-rs-69000-sv-ws-a-2502568.html",
-            "published_at": "2026-04-16T14:07:24+05:30"
-          },
-          {
-            "source": "ABP Gujarati",
-            "title": "Will The Basic Salary Rise From 18 000 To 69 000 8Th Pay Commission 977542",
-            "url": "https://gujarati.abplive.com/news/business/will-the-basic-salary-rise-from-18-000-to-69-000-8th-pay-commission-977542",
-            "published_at": "2026-04-16T14:35:08+05:30"
-          }
-        ],
-        "top_keywords": [
-          "8th",
-          "pay",
-          "commission",
-          "will",
-          "the",
-          "basic",
-          "salary",
-          "from",
-          "000",
-          "personal"
-        ]
-      },
-      "28": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati",
-          "ABP Gujarati"
-        ],
-        "source_count": 2,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Aadhar Card Loan Scam Govt Warns People About Such Ads Stay Vigilant Mk 2502626",
-            "url": "https://gujarati.news18.com/photogallery/business/aadhar-card-loan-scam-govt-warns-people-about-such-ads-stay-vigilant-mk-2502626.html",
-            "published_at": "2026-04-16T13:45:56+05:30"
-          },
-          {
-            "source": "ABP Gujarati",
-            "title": "Aadhar Card Loan Scam Govt Warns People About Such Ads Stay Vigilant 977530",
-            "url": "https://gujarati.abplive.com/news/india/aadhar-card-loan-scam-govt-warns-people-about-such-ads-stay-vigilant-977530",
-            "published_at": "2026-04-16T13:03:33+05:30"
-          }
-        ],
-        "top_keywords": [
-          "aadhar",
-          "card",
-          "loan",
-          "scam",
-          "govt",
-          "warns",
-          "people",
-          "about",
-          "such",
-          "ads"
-        ]
-      },
-      "29": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Hollywood Actor Sunil Sonara Bjp Candidate For Nadiad Corporation Election Vz 2502652",
-            "url": "https://gujarati.news18.com/videos/kheda/hollywood-actor-sunil-sonara-bjp-candidate-for-nadiad-corporation-election-vz-2502652.html",
-            "published_at": "2026-04-16T13:44:55+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Actor Sunil Sonara Who Worked Gujarati Hollywood Films Bjp Candidate Nadiad Az 2502500",
-            "url": "https://gujarati.news18.com/photogallery/kheda/actor-sunil-sonara-who-worked-gujarati-hollywood-films-bjp-candidate-nadiad-az-2502500.html",
-            "published_at": "2026-04-16T12:56:48+05:30"
-          }
-        ],
-        "top_keywords": [
-          "hollywood",
-          "actor",
-          "sunil",
-          "sonara",
-          "bjp",
-          "candidate",
-          "nadiad",
-          "for",
-          "corporation",
-          "election"
-        ]
-      },
-      "30": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati",
-          "ABP Gujarati"
-        ],
-        "source_count": 2,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Lashkar E Taiba Founder Member Amir Hamza Shot In Lahore Critical Mk 2502610",
-            "url": "https://gujarati.news18.com/news/national-international/lashkar-e-taiba-founder-member-amir-hamza-shot-in-lahore-critical-mk-2502610.html",
-            "published_at": "2026-04-16T13:18:13+05:30"
-          },
-          {
-            "source": "ABP Gujarati",
-            "title": "Lashkar E Taiba Founder Maulana Amir Hamza Injured In Firing In Lahore 977522",
-            "url": "https://gujarati.abplive.com/news/world/lashkar-e-taiba-founder-maulana-amir-hamza-injured-in-firing-in-lahore-977522",
-            "published_at": "2026-04-16T12:52:34+05:30"
-          }
-        ],
-        "top_keywords": [
-          "lashkar",
-          "taiba",
-          "founder",
-          "amir",
-          "hamza",
-          "lahore",
-          "member",
-          "shot",
-          "critical",
-          "2502610"
-        ]
-      },
-      "31": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Gajakesari Rajyoga 2026 These 3 Zodiac Signs Will Get Wealth And Success From April 21 Dp Ws B 2502467",
-            "url": "https://gujarati.news18.com/photogallery/dharm-bhakti/gajakesari-rajyoga-2026-these-3-zodiac-signs-will-get-wealth-and-success-from-april-21-dp-ws-b-2502467.html",
-            "published_at": "2026-04-16T12:34:17+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Surya Mangal Budh Trigrahi Yog 2026 These Zodiac Signs Will Get Benefits Dp Ws B 2502238",
-            "url": "https://gujarati.news18.com/photogallery/dharm-bhakti/surya-mangal-budh-trigrahi-yog-2026-these-zodiac-signs-will-get-benefits-dp-ws-b-2502238.html",
-            "published_at": "2026-04-16T07:34:32+05:30"
-          }
-        ],
-        "top_keywords": [
-          "2026",
-          "these",
-          "zodiac",
-          "signs",
-          "will",
-          "get",
-          "gajakesari",
-          "rajyoga",
-          "wealth",
-          "and"
-        ]
-      },
-      "32": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Beauty Tips Alum Fatkadi Remedy For Underarm Odor And Sweat Gujarati Sr Local18 Ws Ab 2502416",
-            "url": "https://gujarati.news18.com/photogallery/lifestyle/beauty-tips-alum-fatkadi-remedy-for-underarm-odor-and-sweat-gujarati-sr-local18-ws-ab-2502416.html",
-            "published_at": "2026-04-16T12:18:36+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Tips To Remove Bitterness From Bitter Gourd Karela Kitchen Hacks Gujarati Sr Local18 Ws Ab 2502322",
-            "url": "https://gujarati.news18.com/photogallery/lifestyle/tips-to-remove-bitterness-from-bitter-gourd-karela-kitchen-hacks-gujarati-sr-local18-ws-ab-2502322.html",
-            "published_at": "2026-04-16T12:05:54+05:30"
-          }
-        ],
-        "top_keywords": [
-          "tips",
-          "gujarati",
-          "local18",
-          "beauty",
-          "alum",
-          "fatkadi",
-          "remedy",
-          "for",
-          "underarm",
-          "odor"
-        ]
-      },
-      "33": {
-        "article_count": 2,
-        "sources": [
-          "News18 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "News18 Gujarati",
-            "title": "Daily Love Horoscope 16 April 2026 For All Zodaic Signs Aaj Nu Love Rashifal By Astrologer Chirag Daruwalla Gh Dp Aa Ws B 2497539",
-            "url": "https://gujarati.news18.com/photogallery/dharm-bhakti/daily-love-horoscope-16-april-2026-for-all-zodaic-signs-aaj-nu-love-rashifal-by-astrologer-chirag-daruwalla-gh-dp-aa-ws-b-2497539.html",
-            "published_at": "2026-04-16T07:01:02+05:30"
-          },
-          {
-            "source": "News18 Gujarati",
-            "title": "Daily Horoscope 16 April 2026 Thursday Aaj Nu Rashi Bhavishya By Astrologer Chirag Daruwalla Astrology Gh Dp Aa Ws B 2495622",
-            "url": "https://gujarati.news18.com/photogallery/dharm-bhakti/daily-horoscope-16-april-2026-thursday-aaj-nu-rashi-bhavishya-by-astrologer-chirag-daruwalla-astrology-gh-dp-aa-ws-b-2495622.html",
-            "published_at": "2026-04-16T06:31:02+05:30"
+            "title": "Daily Horoscope 17 April 2026 Friday Aaj Nu Rashi Bhavishya By Astrologer Chirag Daruwalla Astrology Gh Dp Aa Ws B 2495884",
+            "url": "https://gujarati.news18.com/photogallery/dharm-bhakti/daily-horoscope-17-april-2026-friday-aaj-nu-rashi-bhavishya-by-astrologer-chirag-daruwalla-astrology-gh-dp-aa-ws-b-2495884.html",
+            "published_at": "2026-04-17T06:31:01+05:30"
           }
         ],
         "top_keywords": [
@@ -2367,8 +1533,8 @@
           "for"
         ]
       },
-      "34": {
-        "article_count": 8,
+      "19": {
+        "article_count": 22,
         "sources": [
           "TV9 Gujarati"
         ],
@@ -2376,112 +1542,22 @@
         "articles": [
           {
             "source": "TV9 Gujarati",
-            "title": "Breaking News: IPL 2026 માં મુંબઈનો સતત ચોથો પરાજય, પ્રભસિમરન-શ્રેયસ અય્યરના દમ પર પંજાબ નંબર-1",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-punjab-kings-beat-mumbai-indians-1429952.html",
-            "published_at": "2026-04-17T00:00:31+05:30"
+            "title": "Breaking News : વિરાટ કોહલીએ ઇન્ફ્લુઅન્સરનો ફોટો લાઈક કરતા મચી ગઈ બબાલ",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-who-is-the-german-influencer-lizlaj-1430037.html",
+            "published_at": "2026-04-17T09:58:08+05:30"
           },
           {
             "source": "TV9 Gujarati",
-            "title": "Breaking News: ક્વિન્ટન ડી કોકે IPLમાં ત્રીજી સદી ફટકારી, બનાવ્યો મોટો રેકોર્ડ",
-            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-ipl-2026-mi-vs-pbks-mumbai-indians-quinton-de-kock-record-century-1429938.html",
-            "published_at": "2026-04-16T22:11:22+05:30"
+            "title": "17 એપ્રિલના મહત્વના સમાચાર : વડોદરાના પાદરાના પોલીસ ઇન્સ્પેક્ટર લાંચમાં લપેટાયા, લવ જેહાદનો કેસ ન કરવા માટે PIએ 6 લાખ માંગ્યા હતા",
+            "url": "https://tv9gujarati.com/gujarat/gujarat-latest-live-news-and-samachar-today-17-april-2026-politics-weather-updates-daily-breaking-news-national-news-international-news-sports-news-ipl-2026-top-headlines-in-gujarati-1429955.html",
+            "published_at": "2026-04-17T07:24:00+05:30"
           },
           {
             "source": "TV9 Gujarati",
-            "title": "Breaking News: પાંચમી ઓવરના બીજા બોલ પર યુઝવેન્દ્ર ચહલે કરી મોટી ભૂલ, પંજાબ કિંગ્સને 108 રનનું ભારે નુકસાન",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-chahal-mistake-punjab-lost-108-runs-viral-video-1429911.html",
-            "published_at": "2026-04-16T21:46:01+05:30"
+            "title": "પત્ની છે બાસ્કેટબોલ ખેલાડી,  6 ફૂટ 4 ઇંચ ઊંચા ખેલાડી ઈશાંત શર્માનો પરિવાર જુઓ",
+            "url": "https://tv9gujarati.com/photo-gallery/indian-cricketer-ishant-sharma-family-tree-1420400.html",
+            "published_at": "2026-04-17T06:57:52+05:30"
           },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: પંજાબના કિંગ અર્શદીપ સિંહે કર્યો કમાલ, IPL માં 100 વિકેટ લઈને રચ્યો ઈતિહાસ",
-            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-ipl-2026-mi-vs-pbks-punjab-kings-arshdeep-singh-completes-100-wickets-1429892.html",
-            "published_at": "2026-04-16T21:12:04+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: મુંબઈ ઈન્ડિયન્સને મોટો ફટકો, રોહિત શર્મા 2 મેચમાંથી થયો બહાર, અમદાવાદમાં ગુજરાત સામે નહીં રમે",
-            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-ipl-2026-rohit-sharma-out-for-2-matches-will-not-play-in-ahmedabad-1429866.html",
-            "published_at": "2026-04-16T20:08:22+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: પંજાબ કિંગ્સે ટોસ જીતી બોલિંગ પસંદ કરી, મુંબઈ ઈન્ડિયન્સ પહેલા કરશે બેટિંગ, જાણો બંને ટીમની પ્લેઈંગ 11",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-punjab-kings-won-toss-mumbai-indians-bat-first-1429857.html",
-            "published_at": "2026-04-16T19:08:37+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: જે ખેલાડી ક્યારેય T20 નથી રમ્યો, તે મુંબઈ ઈન્ડિયન્સમાં રોહિત શર્માનું સ્થાન લેશે?",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-danish-malewar-may-take-rohit-sharma-place-1429789.html",
-            "published_at": "2026-04-16T17:20:55+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News : મુંબઈ ઈન્ડિયન્સને મોટો ઝટકો, રોહિત શર્મા ઈજાના કારણે આગામી મેચોમાંથી થયો બહાર",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-big-blow-to-mumbai-indians-rohit-sharma-ruled-out-of-match-1429185.html",
-            "published_at": "2026-04-15T15:20:33+05:30"
-          }
-        ],
-        "top_keywords": [
-          "news",
-          "gujarati",
-          "breaking",
-          "news,",
-          "મુંબઈ",
-          "પંજાબ",
-          "2026,",
-          "latest",
-          "gujarati,",
-          "mumbai"
-        ]
-      },
-      "35": {
-        "article_count": 3,
-        "sources": [
-          "TV9 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: IPL 2026 માંથી એક જ દિવસમાં બે ખેલાડી થયા બહાર, CSK પછી SRHને લાગ્યો મોટો ઝટકો",
-            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-two-player-ruled-out-of-ipl-2026-in-a-single-day-big-blow-to-srh-1429829.html",
-            "published_at": "2026-04-16T18:12:09+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: ચેન્નાઈ સુપર કિંગ્સને મોટો ઝટકો, ઈજાને કારણે સ્ટાર ખેલાડી IPL 2026 માંથી  થયો બહાર",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-big-blow-to-chennai-super-kings-star-player-ruled-out-of-ipl-2026-1429708.html",
-            "published_at": "2026-04-16T15:17:06+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News: MS ધોની 16 એપ્રિલે લેશે મોટો નિર્ણય, IPL 2026માં રમવા અંગે સસ્પેન્સ થશે ખતમ",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-chennai-super-kings-ms-dhoni-to-take-big-decision-on-april-16-1429197.html",
-            "published_at": "2026-04-15T15:40:37+05:30"
-          }
-        ],
-        "top_keywords": [
-          "news",
-          "gujarati",
-          "breaking",
-          "news,",
-          "ipl",
-          "2026,",
-          "latest",
-          "gujarati,",
-          "ચેન્નાઈ",
-          "સુપર"
-        ]
-      },
-      "36": {
-        "article_count": 23,
-        "sources": [
-          "TV9 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
           {
             "source": "TV9 Gujarati",
             "title": "Breaking News : લેન્સકાર્ટની કટ્ટર હિન્દુ વિરોધી પોલિસી પર પિયુષ બંસલને 9 સવાલ, જુઓ ફોટો",
@@ -2595,30 +1671,6 @@
             "title": "Breaking News : કોંગ્રેસ નેતા લલિત વસોયા નિવેદનથી વિવાદ, ચૂંટણી પંચને ગણાવ્યું &#039;પાળતું શ્વાન&#039;, જુઓ વીડિયો",
             "url": "https://tv9gujarati.com/videos/gujarat-videos/breaking-news-controversial-statement-of-former-dhoraji-mla-lalit-vasoya-1429065.html",
             "published_at": "2026-04-15T11:55:15+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News : IPL 2026માં આ ટીમને 1 પણ જીત મળી નથી, કેપ્ટનને ફટકારવામાં આવ્યો 12 લાખનો દંડ",
-            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ajinkya-rahane-fined-12-lakh-1429025.html",
-            "published_at": "2026-04-15T10:33:51+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Breaking News : છત્તીસગઢના વેદાંતા પાવર પ્લાન્ટમાં બ્લાસ્ટમાં 14 લોકોના મોત અનેક લોકો ઘાયલ, શેર પર થશે અસર?",
-            "url": "https://tv9gujarati.com/business/breaking-news-vedanta-power-plant-in-chhattisgarh-boiler-blast-1429015.html",
-            "published_at": "2026-04-15T09:48:02+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "15 એપ્રિલના મહત્વના સમાચાર : વડોદરા જિલ્લા પંચાયતના 04, તાલુકા પંચાયતના 19 અને નગર પાલિકાના 17 ઉમેદવારો થયા બિનહરીફ",
-            "url": "https://tv9gujarati.com/gujarat/gujarat-latest-live-news-and-samachar-today-15-april-2026-politics-weather-updates-daily-breaking-news-national-news-international-news-sports-news-ipl-2026-top-headlines-in-gujarati-1428975.html",
-            "published_at": "2026-04-15T07:17:52+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "સ્વિંગનો કિંગ છે આ બોલર,  સચિનને ​​0 રને આઉટ કરનાર ખેલાડીનો પરિવાર જુઓ",
-            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/indian-cricketer-bhuvneshwar-kumar-family-tree-1421001.html",
-            "published_at": "2026-04-15T07:16:33+05:30"
           }
         ],
         "top_keywords": [
@@ -2634,7 +1686,193 @@
           "ગુજરાતી"
         ]
       },
-      "37": {
+      "20": {
+        "article_count": 2,
+        "sources": [
+          "TV9 Gujarati"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "TV9 Gujarati",
+            "title": "Gold-Silver Rate Today: સોનાના ભાવમાં સતત બીજા દિવસે વધારો, ફરી મોંઘુ થઈ જશે સોના-ચાંદી?",
+            "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-17-april-2026-prices-increase-second-consecutive-day-1430004.html",
+            "published_at": "2026-04-17T08:59:33+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Gold-Silver Rate Today: અક્ષય તૃતીયા પહેલા સોનાના ભાવ ઉછળ્યા, જાણો આજનો લેટેસ્ટ ભાવ",
+            "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-16-april-2026-gold-prices-rose-before-akshay-tritiya-1429504.html",
+            "published_at": "2026-04-16T09:41:58+05:30"
+          }
+        ],
+        "top_keywords": [
+          "rate",
+          "gold",
+          "today,",
+          "silver",
+          "gujarati",
+          "price",
+          "news,",
+          "news",
+          "carat",
+          "price,"
+        ]
+      },
+      "21": {
+        "article_count": 4,
+        "sources": [
+          "TV9 Gujarati"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "TV9 Gujarati",
+            "title": "17 April 2026 રાશિફળ: લાંબા ગાળાનું રોકાણ અપાવશે મબલખ વળતર; વેપારીઓ માટે તેજીના સંકેત અને પાર્ટનર્સનો મળશે પૂરો સહયોગ",
+            "url": "https://tv9gujarati.com/videos/bhakti-videos/daily-gujarati-rashifal-of-17-04-2026-daily-astrology-predictions-for-all-zodiac-signs-watch-video-1429824.html",
+            "published_at": "2026-04-17T08:01:34+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "17 April 2026 રાશિફળ: નવા વ્યવસાય માટે ગ્રહો નક્ષત્રો મહેરબાન; સંતાન પક્ષ તરફથી મળશે ગૌરવ અપાવનારા સમાચાર",
+            "url": "https://tv9gujarati.com/photo-gallery/gujarati-rashifal-of-17-april-2026-daily-astrology-predictions-for-all-12-zodiac-signs-1429794.html",
+            "published_at": "2026-04-17T06:01:01+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "16 April 2026 રાશિફળ: કઈ રાશિના જાતકોનું સપનું વાસ્તવિકતામાં ફેરવાઈ શકે છે અને કોણ સારા પૈસા કમાઈ શકશે? જુઓ Video",
+            "url": "https://tv9gujarati.com/videos/bhakti-videos/april-16-2026-daily-horoscope-today-discover-your-zodiac-sign-predictions-for-love-career-success-watch-video-1429082.html",
+            "published_at": "2026-04-16T08:01:08+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "16 April 2026 રાશિફળ: કઈ રાશિના જાતકો જીવનસાથીને જીવનસાથી તરફથી ખાસ ભેટ  મળશે અને કોણ ઘરની નજીક એક છોડ વાવશે?",
+            "url": "https://tv9gujarati.com/photo-gallery/horoscope-today-16-april-2026-daily-astrology-guide-with-accurate-zodiac-predictions-for-today-1429085.html",
+            "published_at": "2026-04-16T06:01:56+05:30"
+          }
+        ],
+        "top_keywords": [
+          "gujarati",
+          "news,",
+          "news",
+          "gujarati,",
+          "રાશિફળ,",
+          "breaking",
+          "latest",
+          "rashifal,",
+          "horoscope",
+          "today,"
+        ]
+      },
+      "22": {
+        "article_count": 8,
+        "sources": [
+          "TV9 Gujarati"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: IPL 2026 માં મુંબઈનો સતત ચોથો પરાજય, પ્રભસિમરન-શ્રેયસ અય્યરના દમ પર પંજાબ નંબર-1",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-punjab-kings-beat-mumbai-indians-1429952.html",
+            "published_at": "2026-04-17T00:00:31+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: ક્વિન્ટન ડી કોકે IPLમાં ત્રીજી સદી ફટકારી, બનાવ્યો મોટો રેકોર્ડ",
+            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-ipl-2026-mi-vs-pbks-mumbai-indians-quinton-de-kock-record-century-1429938.html",
+            "published_at": "2026-04-16T22:11:22+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: પાંચમી ઓવરના બીજા બોલ પર યુઝવેન્દ્ર ચહલે કરી મોટી ભૂલ, પંજાબ કિંગ્સને 108 રનનું ભારે નુકસાન",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-chahal-mistake-punjab-lost-108-runs-viral-video-1429911.html",
+            "published_at": "2026-04-16T21:46:01+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: પંજાબના કિંગ અર્શદીપ સિંહે કર્યો કમાલ, IPL માં 100 વિકેટ લઈને રચ્યો ઈતિહાસ",
+            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-ipl-2026-mi-vs-pbks-punjab-kings-arshdeep-singh-completes-100-wickets-1429892.html",
+            "published_at": "2026-04-16T21:12:04+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: મુંબઈ ઈન્ડિયન્સને મોટો ફટકો, રોહિત શર્મા 2 મેચમાંથી થયો બહાર, અમદાવાદમાં ગુજરાત સામે નહીં રમે",
+            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-ipl-2026-rohit-sharma-out-for-2-matches-will-not-play-in-ahmedabad-1429866.html",
+            "published_at": "2026-04-16T20:08:22+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: પંજાબ કિંગ્સે ટોસ જીતી બોલિંગ પસંદ કરી, મુંબઈ ઈન્ડિયન્સ પહેલા કરશે બેટિંગ, જાણો બંને ટીમની પ્લેઈંગ 11",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-punjab-kings-won-toss-mumbai-indians-bat-first-1429857.html",
+            "published_at": "2026-04-16T19:08:37+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: જે ખેલાડી ક્યારેય T20 નથી રમ્યો, તે મુંબઈ ઈન્ડિયન્સમાં રોહિત શર્માનું સ્થાન લેશે?",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-mi-vs-pbks-danish-malewar-may-take-rohit-sharma-place-1429789.html",
+            "published_at": "2026-04-16T17:20:55+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News : મુંબઈ ઈન્ડિયન્સને મોટો ઝટકો, રોહિત શર્મા ઈજાના કારણે આગામી મેચોમાંથી થયો બહાર",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-big-blow-to-mumbai-indians-rohit-sharma-ruled-out-of-match-1429185.html",
+            "published_at": "2026-04-15T15:20:33+05:30"
+          }
+        ],
+        "top_keywords": [
+          "news",
+          "gujarati",
+          "breaking",
+          "news,",
+          "મુંબઈ",
+          "પંજાબ",
+          "2026,",
+          "latest",
+          "gujarati,",
+          "mumbai"
+        ]
+      },
+      "23": {
+        "article_count": 3,
+        "sources": [
+          "TV9 Gujarati"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: IPL 2026 માંથી એક જ દિવસમાં બે ખેલાડી થયા બહાર, CSK પછી SRHને લાગ્યો મોટો ઝટકો",
+            "url": "https://tv9gujarati.com/photo-gallery/cricket-photos/breaking-news-two-player-ruled-out-of-ipl-2026-in-a-single-day-big-blow-to-srh-1429829.html",
+            "published_at": "2026-04-16T18:12:09+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: ચેન્નાઈ સુપર કિંગ્સને મોટો ઝટકો, ઈજાને કારણે સ્ટાર ખેલાડી IPL 2026 માંથી  થયો બહાર",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-big-blow-to-chennai-super-kings-star-player-ruled-out-of-ipl-2026-1429708.html",
+            "published_at": "2026-04-16T15:17:06+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News: MS ધોની 16 એપ્રિલે લેશે મોટો નિર્ણય, IPL 2026માં રમવા અંગે સસ્પેન્સ થશે ખતમ",
+            "url": "https://tv9gujarati.com/sports/cricket-news/breaking-news-ipl-2026-chennai-super-kings-ms-dhoni-to-take-big-decision-on-april-16-1429197.html",
+            "published_at": "2026-04-15T15:40:37+05:30"
+          }
+        ],
+        "top_keywords": [
+          "news",
+          "gujarati",
+          "breaking",
+          "news,",
+          "ipl",
+          "2026,",
+          "latest",
+          "gujarati,",
+          "ચેન્નાઈ",
+          "સુપર"
+        ]
+      },
+      "24": {
         "article_count": 2,
         "sources": [
           "TV9 Gujarati"
@@ -2667,7 +1905,40 @@
           "cricket"
         ]
       },
-      "38": {
+      "25": {
+        "article_count": 2,
+        "sources": [
+          "TV9 Gujarati"
+        ],
+        "source_count": 1,
+        "articles": [
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking news: જહાજો ટોલ ચૂકવ્યા વિના હોર્મુઝ પાર કરશે, ઈરાને આ સંકટનો ઉકેલ શોધી આપ્યો",
+            "url": "https://tv9gujarati.com/international-news/breaking-news-iran-proposes-toll-free-passage-in-strait-of-hormuz-major-relief-for-global-oil-shipping-1429703.html",
+            "published_at": "2026-04-16T15:22:29+05:30"
+          },
+          {
+            "source": "TV9 Gujarati",
+            "title": "Breaking News : દુનિયાની સમસ્યાનો અંત..! 48 કલાક બાદ Strait of Hormuz સંપૂર્ણપણે ખુલી ગયું, Trump એ હટાવી નાકાબંધી",
+            "url": "https://tv9gujarati.com/international-news/hormuz-strait-open-trump-ends-blockade-explaining-us-iran-dynamics-1429434.html",
+            "published_at": "2026-04-15T20:54:03+05:30"
+          }
+        ],
+        "top_keywords": [
+          "news",
+          "news,",
+          "gujarati",
+          "breaking",
+          "iran",
+          "હોર્મુઝ",
+          "hormuz",
+          "ઈરાન",
+          "latest",
+          "gujarati,"
+        ]
+      },
+      "26": {
         "article_count": 2,
         "sources": [
           "TV9 Gujarati"
@@ -2700,7 +1971,7 @@
           "gujarati,"
         ]
       },
-      "39": {
+      "27": {
         "article_count": 2,
         "sources": [
           "TV9 Gujarati"
@@ -2733,40 +2004,7 @@
           "breaking"
         ]
       },
-      "40": {
-        "article_count": 2,
-        "sources": [
-          "TV9 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "TV9 Gujarati",
-            "title": "Gold-Silver Rate Today: અક્ષય તૃતીયા પહેલા સોનાના ભાવ ઉછળ્યા, જાણો આજનો લેટેસ્ટ ભાવ",
-            "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-16-april-2026-gold-prices-rose-before-akshay-tritiya-1429504.html",
-            "published_at": "2026-04-16T09:41:58+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "Gold-Silver Rate Today: સોનાના ભાવમાં વધારો, ચાંદીની ચમક થઇ ઓછી, જાણો તમારા શહેરના ભાવ",
-            "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-15-april-2026-gold-ahmedavad-mumbai-delhi-price-1429026.html",
-            "published_at": "2026-04-15T10:23:49+05:30"
-          }
-        ],
-        "top_keywords": [
-          "rate",
-          "gold",
-          "today,",
-          "silver",
-          "gujarati",
-          "price",
-          "news,",
-          "news",
-          "gujarati,",
-          "carat"
-        ]
-      },
-      "41": {
+      "28": {
         "article_count": 2,
         "sources": [
           "TV9 Gujarati"
@@ -2799,52 +2037,7 @@
           "breaking"
         ]
       },
-      "42": {
-        "article_count": 4,
-        "sources": [
-          "TV9 Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "TV9 Gujarati",
-            "title": "16 April 2026 રાશિફળ: કઈ રાશિના જાતકોનું સપનું વાસ્તવિકતામાં ફેરવાઈ શકે છે અને કોણ સારા પૈસા કમાઈ શકશે? જુઓ Video",
-            "url": "https://tv9gujarati.com/videos/bhakti-videos/april-16-2026-daily-horoscope-today-discover-your-zodiac-sign-predictions-for-love-career-success-watch-video-1429082.html",
-            "published_at": "2026-04-16T08:01:08+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "16 April 2026 રાશિફળ: કઈ રાશિના જાતકો જીવનસાથીને જીવનસાથી તરફથી ખાસ ભેટ  મળશે અને કોણ ઘરની નજીક એક છોડ વાવશે?",
-            "url": "https://tv9gujarati.com/photo-gallery/horoscope-today-16-april-2026-daily-astrology-guide-with-accurate-zodiac-predictions-for-today-1429085.html",
-            "published_at": "2026-04-16T06:01:56+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "15 April 2026 રાશિફળ: કઈ રાશિના જાતકો આધ્યાત્મિક પ્રવૃત્તિમાં જોડાશે અને કોણ પરિવાર સાથે પ્રેમભર્યા ક્ષણો વિતાવશે? જુઓ Video",
-            "url": "https://tv9gujarati.com/videos/bhakti-videos/april-15-2026-daily-horoscope-today-discover-your-zodiac-sign-predictions-for-love-career-success-watch-video-1428597.html",
-            "published_at": "2026-04-15T08:01:15+05:30"
-          },
-          {
-            "source": "TV9 Gujarati",
-            "title": "15 April 2026 રાશિફળ: કઈ રાશિના જાતકો જીવનસાથીને સરપ્રાઈઝ આપશે અને કોણ મોહક વ્યક્તિને મળશે?",
-            "url": "https://tv9gujarati.com/photo-gallery/horoscope-today-15-april-2026-daily-astrology-guide-with-accurate-zodiac-predictions-for-today-1428580.html",
-            "published_at": "2026-04-15T06:01:29+05:30"
-          }
-        ],
-        "top_keywords": [
-          "gujarati",
-          "news,",
-          "news",
-          "gujarati,",
-          "breaking",
-          "રાશિફળ,",
-          "latest",
-          "rashifal,",
-          "horoscope",
-          "today,"
-        ]
-      },
-      "43": {
+      "29": {
         "article_count": 5,
         "sources": [
           "TV9 Gujarati"
@@ -2895,7 +2088,7 @@
           "bengaluru,"
         ]
       },
-      "44": {
+      "30": {
         "article_count": 2,
         "sources": [
           "TV9 Gujarati"
@@ -2928,7 +2121,7 @@
           "world"
         ]
       },
-      "45": {
+      "31": {
         "article_count": 2,
         "sources": [
           "TV9 Gujarati"
@@ -2960,39 +2153,6 @@
           "return",
           "investment"
         ]
-      },
-      "46": {
-        "article_count": 2,
-        "sources": [
-          "ABP Gujarati"
-        ],
-        "source_count": 1,
-        "articles": [
-          {
-            "source": "ABP Gujarati",
-            "title": "Gold Silver Prices Today 16 April Check Here 24 Carat 977577",
-            "url": "https://gujarati.abplive.com/news/business/gold-silver-prices-today-16-april-check-here-24-carat-977577",
-            "published_at": "2026-04-16T21:33:15+05:30"
-          },
-          {
-            "source": "ABP Gujarati",
-            "title": "Silver Latest Rate News Gold Silver Price Today 16 April 2026 Live Updates Check India City Wise Gold Silver Rate 24 Carat 22 Carat 977512",
-            "url": "https://gujarati.abplive.com/news/business/silver-latest-rate-news-gold-silver-price-today-16-april-2026-live-updates-check-india-city-wise-gold-silver-rate-24-carat-22-carat-977512",
-            "published_at": "2026-04-16T11:18:51+05:30"
-          }
-        ],
-        "top_keywords": [
-          "silver",
-          "gold",
-          "carat",
-          "today",
-          "april",
-          "check",
-          "rate",
-          "prices",
-          "here",
-          "977577"
-        ]
       }
     },
     "keyword_comparison": {
@@ -3003,11 +2163,11 @@
         ],
         [
           "us",
-          0.0066
+          0.0082
         ],
         [
           "with us",
-          0.0041
+          0.004
         ],
         [
           "list",
@@ -3015,11 +2175,7 @@
         ],
         [
           "with",
-          0.0032
-        ],
-        [
-          "about",
-          0.003
+          0.0035
         ],
         [
           "contact us",
@@ -3027,7 +2183,7 @@
         ],
         [
           "contact",
-          0.0024
+          0.0023
         ],
         [
           "condition with us",
@@ -3046,745 +2202,619 @@
           0.0015
         ],
         [
-          "000 મરચ આવક",
+          "010",
           0.0
         ],
         [
-          "000 મરચ",
+          "000ન કર શક",
           0.0
         ],
         [
-          "000 કર ઇમરજન",
+          "000ન કર",
           0.0
         ],
         [
-          "000 કર",
+          "000ન",
           0.0
         ],
         [
-          "000 to 69",
+          "000mah પર વરફ",
           0.0
         ],
         [
-          "000 to",
+          "000mah પર",
           0.0
         ],
         [
-          "000 theft bus",
+          "000mah",
           0.0
         ],
         [
-          "000 theft",
+          "000 રન ઝડપ",
+          0.0
+        ],
+        [
+          "000 રન",
           0.0
         ]
       ],
       "Divya Bhaskar": [
         [
           "divyabhaskar",
-          0.0463
+          0.0465
         ],
         [
           "gujarat",
-          0.0355
+          0.0332
         ],
         [
           "કર",
-          0.0319
-        ],
-        [
-          "election",
-          0.025
+          0.0305
         ],
         [
           "પર",
-          0.0245
+          0.0252
+        ],
+        [
+          "election",
+          0.0237
         ],
         [
           "news",
-          0.0225
+          0.0208
         ],
         [
           "ટણ",
-          0.0214
-        ],
-        [
-          "દવ",
           0.0193
         ],
         [
-          "ઉમ",
-          0.0189
-        ],
-        [
           "bjp",
-          0.0187
-        ],
-        [
-          "ઉમ દવ",
-          0.0185
+          0.0183
         ],
         [
           "અન",
-          0.0178
-        ],
-        [
-          "ઠક",
-          0.0177
-        ],
-        [
-          "elections",
-          0.0167
-        ],
-        [
-          "જપ",
-          0.0166
+          0.0173
         ],
         [
           "politics",
-          0.0162
+          0.0161
+        ],
+        [
+          "દવ",
+          0.016
+        ],
+        [
+          "ઉમ",
+          0.0156
         ],
         [
           "વર",
+          0.0155
+        ],
+        [
+          "ઉમ દવ",
+          0.0153
+        ],
+        [
+          "elections",
           0.0152
         ],
         [
+          "રમ",
+          0.0144
+        ],
+        [
           "gujarat news",
-          0.0151
+          0.0142
         ],
         [
-          "સન",
-          0.015
+          "gujarat politics",
+          0.014
         ],
         [
-          "રન",
-          0.0148
+          "જપ",
+          0.0137
+        ],
+        [
+          "મહ",
+          0.0134
         ]
       ],
       "News18 Gujarati": [
         [
           "ws",
-          0.0762
-        ],
-        [
-          "in",
-          0.0365
-        ],
-        [
-          "of",
-          0.0288
-        ],
-        [
-          "to",
-          0.027
-        ],
-        [
-          "ws bl",
-          0.0254
-        ],
-        [
-          "bl",
-          0.0254
-        ],
-        [
-          "and",
-          0.0249
-        ],
-        [
-          "the",
-          0.0242
-        ],
-        [
-          "for",
-          0.024
-        ],
-        [
-          "local18 ws",
-          0.0226
-        ],
-        [
-          "local18",
-          0.0226
-        ],
-        [
-          "sr",
-          0.0217
-        ],
-        [
-          "sr local18",
-          0.0217
+          0.1281
         ],
         [
           "sr local18 ws",
-          0.0217
+          0.0622
         ],
         [
-          "vz",
-          0.0204
+          "local18",
+          0.0622
         ],
         [
-          "pk",
-          0.0186
+          "sr",
+          0.0622
         ],
         [
-          "jg",
-          0.0177
+          "sr local18",
+          0.0622
         ],
         [
-          "ym",
-          0.0174
+          "local18 ws",
+          0.0622
         ],
         [
-          "from",
-          0.016
+          "ab",
+          0.0435
         ],
         [
-          "pk ws",
-          0.0155
+          "ws ab",
+          0.0435
+        ],
+        [
+          "local18 ws ab",
+          0.0435
+        ],
+        [
+          "to",
+          0.0429
+        ],
+        [
+          "dp",
+          0.0347
+        ],
+        [
+          "kp ws",
+          0.0277
+        ],
+        [
+          "kp",
+          0.0277
+        ],
+        [
+          "dp ws",
+          0.0274
+        ],
+        [
+          "water",
+          0.0271
+        ],
+        [
+          "and",
+          0.026
+        ],
+        [
+          "stock",
+          0.0244
+        ],
+        [
+          "in",
+          0.0236
+        ],
+        [
+          "the",
+          0.0231
+        ],
+        [
+          "naturally",
+          0.0218
         ]
       ],
       "TV9 Gujarati": [
         [
           "gujarati",
-          0.133
+          0.1289
         ],
         [
           "news",
-          0.1015
+          0.0982
         ],
         [
           "in gujarati",
-          0.0989
+          0.0957
         ],
         [
           "news in",
-          0.0988
-        ],
-        [
-          "news in gujarati",
-          0.0987
-        ],
-        [
-          "breaking",
           0.0955
         ],
         [
-          "breaking news",
-          0.0945
+          "news in gujarati",
+          0.0954
         ],
         [
           "in",
-          0.0882
+          0.0953
+        ],
+        [
+          "breaking",
+          0.0921
+        ],
+        [
+          "breaking news",
+          0.0911
         ],
         [
           "latest",
-          0.0876
+          0.0844
         ],
         [
           "gujarati news",
-          0.0852
+          0.0822
         ],
         [
           "news latest",
-          0.0842
+          0.081
         ],
         [
           "gujarati news latest",
-          0.0821
+          0.0792
         ],
         [
           "gujarati breaking",
-          0.0798
+          0.077
         ],
         [
           "gujarati breaking news",
-          0.0798
+          0.077
         ],
         [
           "latest news",
-          0.0582
+          0.0553
         ],
         [
           "news latest news",
-          0.0519
+          0.0497
         ],
         [
           "gujarati gujarati",
-          0.0483
+          0.0462
         ],
         [
           "in gujarati gujarati",
-          0.0479
-        ],
-        [
-          "breaking news in",
-          0.0474
+          0.046
         ],
         [
           "in gujarati breaking",
-          0.0474
+          0.0456
+        ],
+        [
+          "news latest gujarati",
+          0.0456
         ]
       ],
       "ABP Gujarati": [
         [
+          "trump",
+          0.0906
+        ],
+        [
           "to",
-          0.046
+          0.0684
         ],
         [
-          "in",
-          0.039
+          "israel",
+          0.0612
         ],
         [
-          "will",
-          0.0368
+          "munir",
+          0.061
         ],
         [
-          "of",
-          0.0323
+          "asim munir",
+          0.061
         ],
         [
-          "the",
-          0.0273
+          "asim",
+          0.061
         ],
         [
-          "is",
-          0.0255
+          "tehran",
+          0.061
         ],
         [
           "and",
-          0.0238
-        ],
-        [
-          "from",
-          0.0228
-        ],
-        [
-          "bill",
-          0.0203
-        ],
-        [
-          "reservation",
-          0.0197
-        ],
-        [
-          "for",
-          0.0195
-        ],
-        [
-          "women",
-          0.0191
-        ],
-        [
-          "patanjali",
-          0.0188
-        ],
-        [
-          "women reservation",
-          0.0184
-        ],
-        [
-          "today",
-          0.0184
-        ],
-        [
-          "on",
-          0.0181
-        ],
-        [
-          "check",
-          0.0176
-        ],
-        [
-          "here",
-          0.0175
-        ],
-        [
-          "april",
-          0.0167
+          0.0593
         ],
         [
           "know",
-          0.0154
+          0.0592
+        ],
+        [
+          "iran",
+          0.0557
+        ],
+        [
+          "war",
+          0.0531
+        ],
+        [
+          "from",
+          0.0531
+        ],
+        [
+          "donald trump",
+          0.0513
+        ],
+        [
+          "donald",
+          0.0513
+        ],
+        [
+          "34",
+          0.0505
+        ],
+        [
+          "india",
+          0.0505
+        ],
+        [
+          "lebanon",
+          0.0484
+        ],
+        [
+          "us",
+          0.0473
+        ],
+        [
+          "after",
+          0.0468
+        ],
+        [
+          "years",
+          0.0468
         ]
       ]
     },
     "coverage_gaps": {
       "Gujarat Samachar": {
         "unique_keywords": [
-          "list",
-          "about",
-          "us",
-          "condition with us",
-          "contact us",
-          "000 to",
-          "000 theft",
-          "contact",
-          "with",
+          "sitemap",
           "with us",
-          "000 કર ઇમરજન",
-          "000 મરચ",
-          "000 theft bus",
-          "condition",
-          "sitemap"
+          "000mah પર વરફ",
+          "condition with",
+          "000 રન",
+          "list",
+          "000mah પર",
+          "000mah",
+          "000ન",
+          "terms",
+          "contact",
+          "000ન કર શક",
+          "condition with us",
+          "000ન કર",
+          "condition"
         ],
         "missed_keywords": [
-          "ym",
-          "on",
-          "ઉમ દવ",
-          "પર",
-          "patanjali",
+          "રમ",
+          "election",
+          "34",
+          "war",
+          "in gujarati",
           "elections",
-          "gujarat news",
-          "news latest",
-          "sr local18 ws",
-          "gujarat",
-          "bjp",
-          "know",
-          "women",
-          "gujarati breaking news",
-          "for"
+          "in gujarati gujarati",
+          "after",
+          "from",
+          "sr local18",
+          "lebanon",
+          "the",
+          "દવ",
+          "years",
+          "asim munir"
         ],
         "total_keywords": 20
       },
       "Divya Bhaskar": {
         "unique_keywords": [
-          "ઉમ દવ",
-          "પર",
-          "elections",
-          "gujarat news",
-          "gujarat",
-          "bjp",
-          "કર",
-          "જપ",
-          "અન",
-          "ટણ",
+          "રમ",
           "election",
-          "politics",
+          "elections",
+          "દવ",
+          "મહ",
+          "અન",
           "divyabhaskar",
+          "જપ",
+          "gujarat news",
+          "ટણ",
           "વર",
-          "દવ"
+          "politics",
+          "ઉમ દવ",
+          "કર",
+          "gujarat"
         ],
         "missed_keywords": [
-          "ym",
-          "on",
-          "list",
-          "about",
-          "patanjali",
-          "news latest",
-          "sr local18 ws",
-          "know",
-          "women",
-          "gujarati breaking news",
-          "for",
-          "sr",
-          "us",
-          "gujarati",
-          "here"
+          "34",
+          "sitemap",
+          "war",
+          "in gujarati",
+          "in gujarati gujarati",
+          "after",
+          "from",
+          "sr local18",
+          "with us",
+          "lebanon",
+          "the",
+          "years",
+          "asim munir",
+          "in gujarati breaking",
+          "news latest"
         ],
         "total_keywords": 20
       },
       "News18 Gujarati": {
         "unique_keywords": [
-          "ws",
-          "ym",
-          "bl",
-          "local18",
-          "vz",
-          "sr local18 ws",
-          "local18 ws",
-          "jg",
-          "pk",
+          "kp",
           "sr",
-          "pk ws",
+          "sr local18 ws",
+          "local18 ws ab",
+          "dp ws",
+          "stock",
           "sr local18",
-          "ws bl"
+          "ws ab",
+          "the",
+          "water",
+          "ws",
+          "naturally",
+          "local18",
+          "ab",
+          "kp ws"
         ],
         "missed_keywords": [
-          "on",
-          "ઉમ દવ",
-          "પર",
-          "list",
-          "about",
-          "patanjali",
+          "રમ",
+          "election",
+          "34",
+          "sitemap",
+          "war",
+          "in gujarati",
           "elections",
-          "gujarat news",
-          "news latest",
-          "gujarat",
-          "bjp",
-          "know",
-          "women",
-          "gujarati breaking news",
-          "કર"
+          "in gujarati gujarati",
+          "after",
+          "from",
+          "with us",
+          "lebanon",
+          "દવ",
+          "years",
+          "asim munir"
         ],
         "total_keywords": 20
       },
       "TV9 Gujarati": {
         "unique_keywords": [
-          "news in",
-          "breaking",
-          "news in gujarati",
+          "news latest news",
           "latest news",
-          "gujarati news",
-          "news latest",
           "in gujarati",
-          "gujarati breaking news",
+          "news latest gujarati",
+          "in gujarati gujarati",
           "latest",
+          "gujarati news",
+          "news in gujarati",
           "gujarati news latest",
-          "in gujarati breaking",
-          "gujarati breaking",
+          "news in",
           "breaking news",
-          "gujarati gujarati",
-          "breaking news in"
+          "gujarati breaking",
+          "gujarati breaking news",
+          "in gujarati breaking",
+          "news latest"
         ],
         "missed_keywords": [
-          "ym",
-          "on",
-          "ઉમ દવ",
-          "પર",
-          "list",
-          "about",
-          "patanjali",
+          "રમ",
+          "election",
+          "34",
+          "sitemap",
+          "war",
           "elections",
-          "gujarat news",
-          "sr local18 ws",
-          "gujarat",
-          "bjp",
-          "know",
-          "women",
-          "for"
+          "after",
+          "from",
+          "sr local18",
+          "with us",
+          "lebanon",
+          "the",
+          "દવ",
+          "years",
+          "asim munir"
         ],
         "total_keywords": 20
       },
       "ABP Gujarati": {
         "unique_keywords": [
-          "women reservation",
-          "on",
-          "april",
-          "patanjali",
-          "bill",
-          "reservation",
-          "check",
-          "women",
+          "34",
+          "donald",
+          "war",
+          "trump",
+          "israel",
+          "tehran",
+          "after",
+          "from",
+          "lebanon",
+          "years",
+          "asim munir",
+          "munir",
+          "india",
           "know",
-          "is",
-          "will",
-          "today",
-          "here"
+          "donald trump"
         ],
         "missed_keywords": [
-          "ym",
-          "ઉમ દવ",
-          "પર",
-          "list",
-          "about",
+          "રમ",
+          "election",
+          "sitemap",
+          "in gujarati",
           "elections",
-          "gujarat news",
+          "in gujarati gujarati",
+          "sr local18",
+          "with us",
+          "the",
+          "દવ",
+          "મહ",
+          "in gujarati breaking",
           "news latest",
-          "sr local18 ws",
-          "gujarat",
-          "bjp",
-          "gujarati breaking news",
-          "કર",
-          "sr",
-          "us"
+          "breaking",
+          "000mah પર વરફ"
         ],
         "total_keywords": 20
       }
     },
     "first_publisher": {
       "stats": {
-        "TV9 Gujarati": 10,
-        "News18 Gujarati": 9,
-        "ABP Gujarati": 8
+        "TV9 Gujarati": 5,
+        "Divya Bhaskar": 3
       },
       "details": [
-        {
-          "topic": "Aadhar Card Loan Scam Govt Warns People About Such Ads Stay Vigilant Mk 2502626",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "News18 Gujarati",
-          "time_gap_minutes": 42.4,
-          "similarity": 0.989
-        },
-        {
-          "topic": "Arshdeep Singh Becomes First Bowler Complete 100 Wickets For Punjab Kings Jg 2503208",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 19.3,
-          "similarity": 0.8446
-        },
-        {
-          "topic": "Lashkar E Taiba Founder Member Amir Hamza Shot In Lahore Critical Mk 2502610",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "News18 Gujarati",
-          "time_gap_minutes": 25.6,
-          "similarity": 0.7416
-        },
-        {
-          "topic": "Personal Finance 8Th Pay Commission News Will The Basic Salary Increase From Rs 18000 To Rs 69000 Sv",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 27.7,
-          "similarity": 0.5616
-        },
-        {
-          "topic": "દેત્રોજની ફેક્ટરીમાં ભીષણ આગથી ધૂમાડાના ગોટેગોટા: કાનપુરા રોડ પર ડનલોપ સીટની ફેક્ટરીમાં લાગેલી આગ ખે",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 262.7,
-          "similarity": 0.5003
-        },
-        {
-          "topic": "Sardar Sarovar Narmada Dam Water Level Increase As Mp Release Water Vz 2502529",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "TV9 Gujarati",
-          "time_gap_minutes": 180.6,
-          "similarity": 0.4612
-        },
         {
           "topic": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53",
           "first_publisher": "TV9 Gujarati",
           "second_publisher": "Divya Bhaskar",
           "time_gap_minutes": 1330.5,
-          "similarity": 0.4498
-        },
-        {
-          "topic": "Lashkar E Taiba Founder Member Amir Hamza Shot In Lahore Critical Mk 2502610",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "TV9 Gujarati",
-          "time_gap_minutes": 33.5,
-          "similarity": 0.4338
-        },
-        {
-          "topic": "Parliament Session Live Update Breaking News Women Reservation Amendment Bill Pm Modi Mk 2502812",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "News18 Gujarati",
-          "time_gap_minutes": 2.2,
-          "similarity": 0.4333
-        },
-        {
-          "topic": "Breaking News: ભારત હવે રશિયા-ઈરાન પાસેથી તેલ નહીં ખરીદી શકે ! ડેડલાઈન સમાપ્ત થતા US આડુ ફાટ્યું",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 74.1,
-          "similarity": 0.432
-        },
-        {
-          "topic": "Unseasonal Rains Forecast In Gujarat Amid Scorching Heat Jg 2503151",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "News18 Gujarati",
-          "time_gap_minutes": 314.6,
-          "similarity": 0.4274
-        },
-        {
-          "topic": "Money Plant Vastu Tips : તમારા ઘરમાં મની પ્લાન્ટ ખોટી દિશામાં મૂકાયેલો છે? જાણો વસ્તુ અનુસાર તેના નુ",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 1760.3,
-          "similarity": 0.4241
-        },
-        {
-          "topic": "Mi Vs Pbks Ipl 2026 Punjab King Won By 7 Wickets Jg 2503272",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 15.8,
-          "similarity": 0.4182
-        },
-        {
-          "topic": "Bbc Layoffs 2026 2000 Jobs To Be Cut Amid Financial Pressures And Case Asm 2502658",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "News18 Gujarati",
-          "time_gap_minutes": 213.8,
-          "similarity": 0.4109
-        },
-        {
-          "topic": "સંસદમાં મજાક-મસ્તી, VIDEO: માઇકની વાત પર બિરલા-રાહુલ હસી પડ્યા, PM મોદીએ અખિલેશને મિત્ર કહેતા ડિમ્પલ",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 396.7,
-          "similarity": 0.4012
-        },
-        {
-          "topic": "સાણંદ-વિરમગામ હાઈવે પર સ્ક્રેપ ગોડાઉનમાં ભીષણ આગ: છારોડીમાં કિલોસ્કર બ્રધર્સ કંપની પાસેનો બનાવ, આકાશ",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 429.1,
-          "similarity": 0.393
-        },
-        {
-          "topic": "Breaking News : પાકિસ્તાનમાં અજાણ્યો વ્યક્તિ ફરી થયો સક્રિય, આતંકવાદી અમીર હમઝાને લાહોરમાં મારી ગોળી",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "TV9 Gujarati",
-          "time_gap_minutes": 59.1,
-          "similarity": 0.3897
-        },
-        {
-          "topic": "Israel Lebanon Ceasefire Announced Us President Donald Trump Pk Ws B 2503202",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 88.8,
-          "similarity": 0.3875
-        },
-        {
-          "topic": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 534.5,
-          "similarity": 0.3853
-        },
-        {
-          "topic": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 1932.7,
-          "similarity": 0.3849
+          "similarity": 0.4579
         },
         {
           "topic": "આતંકી હાફિઝ સઈદના રાઈટ હેન્ડ ગણાતા હમઝા પર ફાયરિંગ: લાહોરમાં ન્યૂઝ ચેનલની ઓફિસ બહાર હુમલો, ભારતમાં અ",
           "first_publisher": "TV9 Gujarati",
           "second_publisher": "Divya Bhaskar",
           "time_gap_minutes": 440.3,
-          "similarity": 0.3787
+          "similarity": 0.4209
         },
         {
-          "topic": "Gold-Silver Rate Today: અક્ષય તૃતીયા પહેલા સોનાના ભાવ ઉછળ્યા, જાણો આજનો લેટેસ્ટ ભાવ",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 96.9,
-          "similarity": 0.3697
-        },
-        {
-          "topic": "સાણંદ-વિરમગામ હાઈવે પર સ્ક્રેપ ગોડાઉનમાં ભીષણ આગ: છારોડીમાં કિલોસ્કર બ્રધર્સ કંપની પાસેનો બનાવ, આકાશ",
-          "first_publisher": "News18 Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 108.6,
-          "similarity": 0.3682
-        },
-        {
-          "topic": "Gold-Silver Rate Today: સોનાના ભાવમાં વધારો, ચાંદીની ચમક થઇ ઓછી, જાણો તમારા શહેરના ભાવ",
-          "first_publisher": "TV9 Gujarati",
-          "second_publisher": "ABP Gujarati",
-          "time_gap_minutes": 1495.0,
-          "similarity": 0.3666
-        },
-        {
-          "topic": "મોદી બોલ્યા- મહિલા અનામત પર વિપક્ષ ક્રેડિટ લે: પ્રિયંકા બોલ્યાં- ભ્રમિત કરનારા પુરુષોને મહિલાઓ ઓળખી ",
-          "first_publisher": "ABP Gujarati",
-          "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 32.5,
-          "similarity": 0.3662
-        },
-        {
-          "topic": "Sardar Sarovar Narmada Dam Water Level Increase As Mp Release Water Vz 2502529",
-          "first_publisher": "News18 Gujarati",
+          "topic": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53",
+          "first_publisher": "Divya Bhaskar",
           "second_publisher": "TV9 Gujarati",
-          "time_gap_minutes": 213.1,
-          "similarity": 0.361
+          "time_gap_minutes": 863.1,
+          "similarity": 0.4085
         },
         {
-          "topic": "ભુજના લોડાઇ ગામે પાણીપુરી ખાધા બાદ 36 લોકોને ફૂડ પોઇઝનિંગ: તમામ હોસ્પિટલમાં સારવાર હેઠળ, આરોગ્ય વિભા",
+          "topic": "ચાંદી આજે ₹3,656 વધીને ₹2.53 લાખ પર પહોંચી: આ વર્ષે કિંમત ₹22 હજાર વધી, સોનું ₹440 મોંઘું થઈને ₹1.53",
           "first_publisher": "TV9 Gujarati",
           "second_publisher": "Divya Bhaskar",
-          "time_gap_minutes": 278.7,
-          "similarity": 0.3575
+          "time_gap_minutes": 534.5,
+          "similarity": 0.4042
+        },
+        {
+          "topic": "દેત્રોજની ફેક્ટરીમાં ભીષણ આગથી ધૂમાડાના ગોટેગોટા: કાનપુરા રોડ પર ડનલોપ સીટની ફેક્ટરીમાં લાગેલી આગ ખે",
+          "first_publisher": "TV9 Gujarati",
+          "second_publisher": "Divya Bhaskar",
+          "time_gap_minutes": 262.7,
+          "similarity": 0.3811
+        },
+        {
+          "topic": "ઈરાન ઘૂંટણિયે પડ્યું, એનરિચ્ડ યુરેનિયમ સોંપવા તૈયાર: ટ્રમ્પે કહ્યું- બંને દેશ સીઝફાયરની નજીક, ઈસ્લામ",
+          "first_publisher": "TV9 Gujarati",
+          "second_publisher": "Divya Bhaskar",
+          "time_gap_minutes": 458.8,
+          "similarity": 0.377
+        },
+        {
+          "topic": "7 વિકેટે જીતી પંજાબ કિંગ્સ ટેબલ ટોપર બની: સતત ચાર મેચ હારી હાર્દિકની ટીમ ભગવાન ભરોષે, પ્રભસિમરન-અય્ય",
+          "first_publisher": "Divya Bhaskar",
+          "second_publisher": "News18 Gujarati",
+          "time_gap_minutes": 1304.0,
+          "similarity": 0.3738
+        },
+        {
+          "topic": "ઈરાન ઘૂંટણિયે પડ્યું, એનરિચ્ડ યુરેનિયમ સોંપવા તૈયાર: ટ્રમ્પે કહ્યું- બંને દેશ સીઝફાયરની નજીક, ઈસ્લામ",
+          "first_publisher": "Divya Bhaskar",
+          "second_publisher": "ABP Gujarati",
+          "time_gap_minutes": 115.0,
+          "similarity": 0.3715
         }
       ]
     }
