@@ -40,12 +40,15 @@ st.markdown(
     :root {
         --primary: #FF4B4B;
         --secondary: #262730;
-        --bg-dark: #080d1a;
-        --sidebar-bg: #0E1117;
+        --bg-dark: #0D1117;
+        --sidebar-bg: #0e1117;
         --text-main: #FAFAFA;
-        --text-dim: #9494B8;
+        --text-dim: #94A3B8;
         --card-bg: #161B22;
         --card-border: #30363D;
+        --status-bg: #0C1821;
+        --status-border: #1A3A4A;
+        --status-text: #00BFFF;
     }
 
 
@@ -109,11 +112,10 @@ st.markdown(
 
 
 
-    /* Sidebar Styling - Distinct Graphite Look */
+    /* Sidebar Styling - YT Recommender Dark */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #080808 0%, #000000 100%) !important;
-        border-right: 2px solid rgba(255, 75, 75, 0.2);
-        box-shadow: 10px 0 30px rgba(0,0,0,0.5);
+        background-color: var(--sidebar-bg) !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     
@@ -134,81 +136,58 @@ st.markdown(
 
     /* Remove gap above News Finder */
     [data-testid="stSidebar"] section[data-testid="stSidebarContent"] > div {
-        padding-top: 1rem !important;
+        padding-top: 0px !important;
     }
 
-[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h1 {
-        font-size: 2.8rem !important;
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h1 {
+        font-size: 1.8rem !important;
         font-weight: 800 !important;
         color: var(--primary) !important;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 12px;
+        gap: 10px;
         margin-bottom: 0px !important;
         letter-spacing: -0.5px;
     }
 
-
-
-
     [data-testid="stSidebar"] .stCaption {
         color: #808495;
-        font-size: 1.1rem !important;
+        font-size: 0.85rem !important;
         font-weight: 500;
-        margin-bottom: 2rem !important;
+        margin-bottom: 1.5rem !important;
     }
 
-    /* Premium Radio Navigation */
-    div[data-testid="stRadio"] > div {
-        gap: 12px;
-        padding: 0 5px;
-    }
-    
-    div[data-testid="stRadio"] label {
-        background: transparent !important;
-        border-radius: 10px !important;
-        padding: 12px 18px !important;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        border: 1px solid transparent !important;
-        margin-bottom: 4px;
-        cursor: pointer;
-        display: flex !important;
+    /* Status Box Style */
+    .status-box {
+        background: var(--status-bg);
+        border: 1px solid var(--status-border);
+        border-radius: 8px;
+        padding: 5px 12px;
+        color: var(--status-text);
+        font-size: 0.75rem;
+        font-weight: 600;
+        display: flex;
         align-items: center;
+        gap: 8px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
 
-    div[data-testid="stRadio"] label p {
-        font-size: 1.1rem !important;
-        font-weight: 600 !important;
-        color: inherit !important;
-        margin: 0 !important;
-    }
-
-
-
-
-
-    [data-testid="stSidebar"] .stCaption {
-        color: #808495;
-        font-size: 0.95rem !important;
-        font-weight: 500;
-        margin-bottom: 2rem !important;
-    }
-
-    /* Premium Radio Navigation */
+    /* Ultra-Compact Radio Navigation */
     div[data-testid="stRadio"] > div {
-        gap: 12px;
-        padding: 0 5px;
+        gap: 0px !important;
+        padding: 0px !important;
     }
     
     div[data-testid="stRadio"] label {
         background: transparent !important;
-        border-radius: 10px !important;
-        padding: 10px 15px !important;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 4px !important;
+        padding: 2px 10px !important;
+        transition: all 0.2s ease;
         border: 1px solid transparent !important;
-        margin-bottom: 4px;
+        margin-bottom: 0px !important;
         cursor: pointer;
         display: flex !important;
         align-items: center;
@@ -216,19 +195,18 @@ st.markdown(
 
     div[data-testid="stRadio"] label:hover {
         background: rgba(255, 255, 255, 0.05) !important;
-        border-color: rgba(255, 255, 255, 0.1) !important;
     }
 
-    /* Active Radio Item - Using :has for precision */
+    /* Active Radio Item */
     div[data-testid="stRadio"] label:has(input:checked) {
-        background: linear-gradient(90deg, rgba(255, 75, 75, 0.15), transparent) !important;
-        border-left: 4px solid var(--primary) !important;
+        background: rgba(255, 75, 75, 0.1) !important;
+        border-left: 3px solid var(--primary) !important;
         color: var(--primary) !important;
     }
 
     div[data-testid="stRadio"] label p {
-        font-size: 1rem !important;
-        font-weight: 600 !important;
+        font-size: 0.9rem !important;
+        font-weight: 500 !important;
         color: inherit !important;
         margin: 0 !important;
     }
@@ -239,7 +217,7 @@ st.markdown(
         display: none !important;
     }
     
-    /* Re-show the label text which might have been hidden by the broad selector above */
+    /* Re-show the label text */
     div[data-testid="stRadio"] label p {
         display: block !important;
     }
@@ -250,11 +228,12 @@ st.markdown(
         background: linear-gradient(135deg, var(--primary), #FF1F1F) !important;
         color: white !important;
         border: none !important;
-        padding: 0.85rem 1rem !important;
-        border-radius: 12px !important;
-        font-weight: 700 !important;
+        padding: 0.45rem 0.6rem !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        font-size: 0.85rem !important;
         transition: all 0.2s ease !important;
-        box-shadow: 0 4px 15px rgba(255, 75, 75, 0.2);
+        box-shadow: 0 4px 12px rgba(255, 75, 75, 0.2);
     }
 
     /* Secondary Button Styling - GLASS/DARK */
@@ -263,9 +242,10 @@ st.markdown(
         background: rgba(255, 255, 255, 0.05) !important;
         color: var(--text-main) !important;
         border: 1px solid var(--card-border) !important;
-        padding: 0.85rem 1rem !important;
-        border-radius: 12px !important;
-        font-weight: 600 !important;
+        padding: 0.45rem 0.6rem !important;
+        border-radius: 8px !important;
+        font-weight: 500 !important;
+        font-size: 0.85rem !important;
         transition: all 0.2s ease !important;
     }
 
@@ -274,12 +254,13 @@ st.markdown(
         background: linear-gradient(135deg, #1a6b8a, #0e4d6b) !important;
         color: white !important;
         border: none !important;
-        padding: 0.85rem 1rem !important;
-        border-radius: 12px !important;
-        font-weight: 700 !important;
+        padding: 0.45rem 0.6rem !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        font-size: 0.85rem !important;
         width: 100% !important;
         transition: all 0.2s ease !important;
-        box-shadow: 0 4px 15px rgba(26, 107, 138, 0.3) !important;
+        box-shadow: 0 4px 12px rgba(26, 107, 138, 0.3) !important;
     }
     .load-btn-wrap .stButton > button:hover {
         transform: translateY(-2px);
@@ -364,19 +345,21 @@ st.markdown(
         margin: 1rem 0;
     }
 
-    /* Section Titles */
+    /* Section Titles - YT Recommender Style */
     .section-title {
-        font-size: 3rem;
-        font-weight: 800;
-        margin-bottom: 0.5rem;
-        color: var(--text-main);
-        letter-spacing: -0.5px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 4px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
     
     .section-subtitle {
-        font-size: 1.3rem;
-        color: var(--text-dim);
-        margin-bottom: 2rem;
+        font-size: 0.95rem;
+        color: #8B949E;
+        margin-bottom: 25px;
         font-weight: 400;
     }
 
@@ -390,7 +373,7 @@ st.markdown(
         border: 0;
         height: 1px;
         background: linear-gradient(90deg, transparent, var(--card-border), transparent);
-        margin: 2.5rem 0;
+        margin: 1rem 0;
     }
 </style>
 """,
