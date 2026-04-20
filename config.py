@@ -8,12 +8,12 @@ DATA_DIR = os.getenv("DATA_DIR", "data")
 COMPETITORS = {
     "News18 Gujarati": {
         "sitemap": "https://gujarati.news18.com/commonfeeds/v1/guj/sitemap-index.xml",
-        "fetch_strategy": "daily_index",  # Contains multiple children sitemaps mapping day-by-day
+        "fetch_strategy": "daily_index",
         "days_to_fetch": DEFAULT_DAYS_BACK
     },
     "TV9 Gujarati": {
         "sitemap": "https://tv9gujarati.com/news-sitemap.xml",
-        "fetch_strategy": "direct",       # Single continuous feed
+        "fetch_strategy": "direct",
         "days_to_fetch": DEFAULT_DAYS_BACK
     },
     "ABP Gujarati": {
@@ -33,7 +33,7 @@ COMPETITORS = {
     },
     "Zee Gujarati": {
         "sitemap": "https://zeenews.india.com/gujarati/sitemaps/news-sitemap.xml",
-        "fetch_strategy": "direct_waf_bypass", # Heavy Akamai Firewall blocked URL
+        "fetch_strategy": "direct_waf_bypass",
         "days_to_fetch": DEFAULT_DAYS_BACK
     },
     "Divya Bhaskar": {

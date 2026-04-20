@@ -115,7 +115,9 @@ class NewsAnalyzer:
 
         if n <= CHUNK_SIZE:
             # Small dataset: compute directly
-            self.similarity_matrix = cosine_similarity(self.tfidf_matrix)
+            similarity = cosine_similarity(self.tfidf_matrix)
+            # Ensure values are in valid range [0, 1] to prevent negative values
+            self.similarity_matrix = np.clip(similarity, 0.0, 1.0)
         else:
             # Large dataset: compute in chunks to save memory
             logger.info(f"Computing similarity in chunks (n={n})...")
@@ -128,6 +130,8 @@ class NewsAnalyzer:
                         self.tfidf_matrix[i:end_i],
                         self.tfidf_matrix[j:end_j]
                     )
+                    # Ensure values are in valid range [0, 1]
+                    chunk_sim = np.clip(chunk_sim, 0.0, 1.0)
                     self.similarity_matrix[i:end_i, j:end_j] = chunk_sim
                     if i != j:
                         self.similarity_matrix[j:end_j, i:end_i] = chunk_sim.T
@@ -142,6 +146,7 @@ class NewsAnalyzer:
         """
         Find pairs of similar articles across different competitors.
         Returns list of similar article pairs with similarity scores.
+        Optimized with vectorized operations.
         """
         if self.similarity_matrix is None:
             self.compute_similarity_matrix()
@@ -149,36 +154,44 @@ class NewsAnalyzer:
         if self.similarity_matrix is None:
             return []
 
-        similar_pairs = []
         n = len(self.df)
+        sources = self.df["source"].values
+        
+        triu_indices = np.triu_indices(n, k=1)
+        valid_mask = sources[triu_indices[0]] != sources[triu_indices[1]]
+        
+        row_indices = triu_indices[0][valid_mask]
+        col_indices = triu_indices[1][valid_mask]
+        sim_scores = self.similarity_matrix[row_indices, col_indices]
+        
+        high_sim_mask = sim_scores >= MIN_SIMILARITY_THRESHOLD
+        high_sim_scores = sim_scores[high_sim_mask]
+        high_row_indices = row_indices[high_sim_mask]
+        high_col_indices = col_indices[high_sim_mask]
+        
+        similar_pairs = []
+        for idx in range(len(high_sim_scores)):
+            i, j = high_row_indices[idx], high_col_indices[idx]
+            sim_score = high_sim_scores[idx]
+            
+            pair = {
+                "article_1": {
+                    "source": self.df.iloc[i]["source"],
+                    "title": self.df.iloc[i]["title"],
+                    "url": self.df.iloc[i]["url"],
+                    "published_at": self.df.iloc[i].get("published_at", ""),
+                },
+                "article_2": {
+                    "source": self.df.iloc[j]["source"],
+                    "title": self.df.iloc[j]["title"],
+                    "url": self.df.iloc[j]["url"],
+                    "published_at": self.df.iloc[j].get("published_at", ""),
+                },
+                "similarity_score": round(float(sim_score), 4),
+                "is_likely_duplicate": sim_score >= HIGH_SIMILARITY_THRESHOLD,
+            }
+            similar_pairs.append(pair)
 
-        for i in range(n):
-            for j in range(i + 1, n):
-                sim_score = self.similarity_matrix[i, j]
-
-                # Only consider cross-source similarities
-                if (sim_score >= MIN_SIMILARITY_THRESHOLD and
-                        self.df.iloc[i]["source"] != self.df.iloc[j]["source"]):
-
-                    pair = {
-                        "article_1": {
-                            "source": self.df.iloc[i]["source"],
-                            "title": self.df.iloc[i]["title"],
-                            "url": self.df.iloc[i]["url"],
-                            "published_at": self.df.iloc[i].get("published_at", ""),
-                        },
-                        "article_2": {
-                            "source": self.df.iloc[j]["source"],
-                            "title": self.df.iloc[j]["title"],
-                            "url": self.df.iloc[j]["url"],
-                            "published_at": self.df.iloc[j].get("published_at", ""),
-                        },
-                        "similarity_score": round(float(sim_score), 4),
-                        "is_likely_duplicate": sim_score >= HIGH_SIMILARITY_THRESHOLD,
-                    }
-                    similar_pairs.append(pair)
-
-        # Sort by similarity (highest first)
         similar_pairs.sort(key=lambda x: x["similarity_score"], reverse=True)
         logger.info(f"Found {len(similar_pairs)} similar article pairs")
         return similar_pairs
@@ -191,13 +204,18 @@ class NewsAnalyzer:
         """Cluster articles into topics using DBSCAN on TF-IDF features."""
         if not self._prepared or self.tfidf_matrix is None:
             return {}
+        
+        try:
+            similarity = cosine_similarity(self.tfidf_matrix)
+            distance_matrix = 1 - similarity
+            distance_matrix = np.clip(distance_matrix, 0.0, 1.0)
+            np.fill_diagonal(distance_matrix, 0)
 
-        # Use distance matrix for DBSCAN
-        distance_matrix = 1 - cosine_similarity(self.tfidf_matrix)
-        np.fill_diagonal(distance_matrix, 0)
-
-        clustering = DBSCAN(eps=eps, min_samples=min_samples, metric="precomputed")
-        labels = clustering.fit_predict(distance_matrix)
+            clustering = DBSCAN(eps=eps, min_samples=min_samples, metric="precomputed")
+            labels = clustering.fit_predict(distance_matrix)
+        except Exception as e:
+            logger.warning(f"Clustering failed: {e}")
+            return {}
 
         self.df["cluster"] = labels
 

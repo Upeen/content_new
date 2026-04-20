@@ -381,6 +381,8 @@ st.markdown(
 )
 
 
+from functools import lru_cache
+
 def format_time_gap(seconds):
     if seconds == 0:
         return "🚀 First!"
@@ -395,7 +397,10 @@ def format_time_gap(seconds):
         return f"+{secs}s"
 
 
+@lru_cache(maxsize=4096)
 def parse_ts(pub_str):
+    if not pub_str:
+        return None
     try:
         ts = pd.to_datetime(pub_str)
         if pd.isna(ts):
@@ -447,7 +452,7 @@ def render_frontend_table(df, key, column_config=None, filename="data.csv", hide
 
 
     # ---- TABLE RENDERING ----
-    row_height = 50
+    row_height = 60
     calculated_height = (len(filtered_df) + 1) * row_height + 60
 
 
@@ -469,6 +474,11 @@ def render_frontend_table(df, key, column_config=None, filename="data.csv", hide
 
 def get_filters(key_prefix, include_hours=False):
     import datetime
+    
+    filter_key = f"{key_prefix}_filter_state"
+    if filter_key not in st.session_state:
+        st.session_state[filter_key] = {"date": datetime.date.today(), "source": "All", "min": 60}
+    
     with st.expander("🔍 Filters & Tools", expanded=True):
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -479,7 +489,6 @@ def get_filters(key_prefix, include_hours=False):
                 max_value=today,
                 key=f"{key_prefix}_date"
             )
-            # Normalize: if same-day is selected, Streamlit may return a single date
             if isinstance(date_range, datetime.date) and not isinstance(date_range, tuple):
                 date_range = (date_range, date_range)
             elif isinstance(date_range, (list, tuple)) and len(date_range) == 1:
@@ -491,6 +500,9 @@ def get_filters(key_prefix, include_hours=False):
         with col3:
             if include_hours:
                 lookback = st.number_input("Last - Min", min_value=1, max_value=1440, value=60, key=f"{key_prefix}_min")
+            else:
+                lookback = 60
+    
     if include_hours:
         return date_range, source, lookback
     return date_range, source
@@ -514,13 +526,25 @@ with st.sidebar:
     
     st.markdown('<hr class="custom-hr">', unsafe_allow_html=True)
     
-    fetch_btn = st.button("Fetch Fresh Data", width="stretch", type="primary")
+    fetch_btn = st.button("Fetch Fresh Data", use_container_width=True, type="primary")
     st.markdown('<div class="load-btn-wrap">', unsafe_allow_html=True)
-    load_btn = st.button("Load Cached Data", width="stretch")
+    load_btn = st.button("Load Cached Data", use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 
 # ---- DATA INITIALIZATION ----
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_parsed_articles(articles):
+    parsed = []
+    for a in articles:
+        ts = parse_ts(a.get("published_at"))
+        parsed.append({
+            "article": a,
+            "ts": ts,
+            "date": ts.date() if ts else None,
+        })
+    return parsed
+
 if fetch_btn:
     with st.status("🚀 Processing Competitor Scans...", expanded=True) as status:
         all_articles = fetch_all_competitors(hours=DEFAULT_DAYS_BACK * 24)
@@ -530,6 +554,7 @@ if fetch_btn:
             save_analysis(analysis)
             st.session_state.articles = all_articles
             st.session_state.analysis = analysis
+            st.session_state.parsed_articles = get_parsed_articles(all_articles)
             status.update(label=f"✅ Analysis Complete ({len(all_articles)} items)", state="complete")
         else:
             status.update(label="⚠️ No news found", state="error")
@@ -539,10 +564,12 @@ if load_btn or ("articles" not in st.session_state):
     if arts:
         st.session_state.articles = arts
         st.session_state.analysis = load_analysis()
+        st.session_state.parsed_articles = get_parsed_articles(arts)
         if load_btn: st.success(f"Loaded {len(arts)} entries")
 
 articles = st.session_state.get("articles", [])
 analysis = st.session_state.get("analysis", {})
+parsed_articles = st.session_state.get("parsed_articles", [])
 
 
 with status_range_container:
@@ -568,15 +595,9 @@ with status_range_container:
         except: pass
             
     if articles:
-        @st.cache_data(ttl=300)
-        def get_ts_range(arts):
-            all_ts = [parse_ts(a.get("published_at")) for a in arts if parse_ts(a.get("published_at"))]
-            if all_ts:
-                return min(all_ts), max(all_ts)
-            return None, None
-            
-        min_ts, max_ts = get_ts_range(articles)
-        if min_ts and max_ts:
+        ts_list = [pa["ts"] for pa in parsed_articles if pa["ts"]]
+        if ts_list:
+            min_ts, max_ts = min(ts_list), max(ts_list)
             st.markdown(f'''
                 <div style="font-size: 0.85rem; color: #FF4B4B; background: rgba(255, 255, 255, 0.05); padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255, 75, 75, 0.3); font-weight: 700; text-align: center;">
                     📅 {min_ts.strftime('%d %b %#I:%M%p').lower()} - {max_ts.strftime('%d %b %#I:%M%p').lower()}
@@ -626,14 +647,12 @@ if page == PAGE_COVERAGE:
         query_tokens = set(re.sub(r"[^\w\s]", " ", topic_query.lower()).split())
 
         matched = []
-        for a in articles:
-            pub_str = a.get("published_at", "")
-            if not pub_str:
+        for pa in parsed_articles:
+            a = pa["article"]
+            ts = pa["ts"]
+            if not ts:
                 continue
-            try:
-                pub_date = pd.to_datetime(pub_str).date()
-            except Exception:
-                continue
+            pub_date = ts.date()
             if cov_start and cov_end and not (cov_start <= pub_date <= cov_end):
                 continue
 
@@ -644,7 +663,6 @@ if page == PAGE_COVERAGE:
             keywords_text = a.get("keywords", "").lower()
             url_text = a.get("url", "").lower()
             
-            # Accurate Word Matching
             matches_all = True
             for tok in query_tokens:
                 if tok.isalnum():
@@ -787,7 +805,7 @@ elif page == PAGE_DUPLICATES:
     st.markdown('<div class="section-subtitle">All duplicate content across competitors — who published first and the time gap</div>', unsafe_allow_html=True)
 
     import datetime as dt
-    filter_col1, filter_col2 = st.columns(2)
+    filter_col1, filter_col2, filter_col3 = st.columns(3)
     with filter_col1:
         today = dt.date.today()
         local_date_range = st.date_input(
@@ -796,7 +814,6 @@ elif page == PAGE_DUPLICATES:
             max_value=today,
             key="dup_date"
         )
-        # Normalize single-date return when start == end
         if isinstance(local_date_range, dt.date) and not isinstance(local_date_range, tuple):
             local_date_range = (local_date_range, local_date_range)
         elif isinstance(local_date_range, (list, tuple)) and len(local_date_range) == 1:
@@ -805,10 +822,13 @@ elif page == PAGE_DUPLICATES:
     with filter_col2:
         all_sources = ["All"] + list(COMPETITORS.keys())
         local_source = st.selectbox("Source", all_sources, key="dup_source")
+    
+    with filter_col3:
+        min_dup_score = st.number_input("Min Duplicate Score (%)", min_value=30, max_value=100, value=None, placeholder="Enter %", key="dup_min_score")
 
-
-
-
+    if min_dup_score is None:
+        st.info("Enter Min Duplicate Score (%) (30-100) and press Enter to see results.")
+        st.stop()
 
     st.markdown("---")
 
@@ -830,6 +850,10 @@ elif page == PAGE_DUPLICATES:
         a2 = pair["article_2"]
         ts1 = parse_ts(a1.get("published_at", ""))
         ts2 = parse_ts(a2.get("published_at", ""))
+        
+        dup_score = pair.get("similarity_score", 0) * 100
+        if min_dup_score is not None and dup_score < min_dup_score:
+            continue
 
         if cov_start and cov_end and ts1 and ts2:
             date1 = ts1.date()
@@ -849,12 +873,9 @@ elif page == PAGE_DUPLICATES:
         ts1 = parse_ts(a1.get("published_at", ""))
         ts2 = parse_ts(a2.get("published_at", ""))
 
-        # Grouping by a slightly more robust key but keeping full titles for group identification
         key1 = a1.get("title", "").strip()
         key2 = a2.get("title", "").strip()
         
-        # We'll use the shorter title as the dictionary key to group them, 
-        # but we'll collect the full titles to pick the best one later.
         topic_key = min(key1[:100], key2[:100]) 
 
         if topic_key not in topic_groups:
@@ -883,7 +904,6 @@ elif page == PAGE_DUPLICATES:
     grouped_results = []
     for t_key, group_data in topic_groups.items():
         items = group_data["items"]
-        # Find the longest/best title from all candidates
         best_topic = max(group_data["full_titles"], key=len) if group_data["full_titles"] else t_key
         
         unique_articles = {}
@@ -920,11 +940,25 @@ elif page == PAGE_DUPLICATES:
     else:
         st.markdown("---")
         st.markdown("### Ranked Duplicates by Story")
+        
+        total_groups = len(grouped_results)
+        page_size = 20
+        total_pages = max(1, (total_groups + page_size - 1) // page_size)
+        
+        col_nav1, col_nav2 = st.columns([1, 2])
+        with col_nav1:
+            current_page = st.number_input("Page", min_value=1, max_value=total_pages, value=1, key="dup_page")
+        with col_nav2:
+            st.markdown(f"<div style='text-align:center; padding-top:8px; color:var(--text-dim);'>Page {current_page} of {total_pages} | {total_groups} stories</div>", unsafe_allow_html=True)
+        
+        start_idx = (current_page - 1) * page_size
+        end_idx = min(start_idx + page_size, total_groups)
+        page_groups = grouped_results[start_idx:end_idx]
 
         medal_colors = ["#FFD700", "#C0C0C0", "#CD7F32", "#2d2d3d", "#3d3d4d", "#4d4d5d", "#5d5d6d"]
         medal_icons = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣", "7️⃣"]
 
-        for g_idx, group in enumerate(grouped_results, start=1):
+        for g_idx, group in enumerate(page_groups, start=start_idx + 1):
             all_sims = [data["similarity"] for _, data in group["publishers"]]
             max_sim = max(all_sims) if all_sims else 0
 
@@ -957,6 +991,8 @@ elif page == PAGE_DUPLICATES:
             row_cols = st.columns(cols_per_row)
 
             for p_idx, (source, data) in enumerate(group["publishers"]):
+                if p_idx >= cols_per_row:
+                    break
                 ts = data["ts"]
                 delay_seconds = (ts - group["first_ts"]).total_seconds() if ts and group["first_ts"] else 0
 
@@ -974,7 +1010,6 @@ elif page == PAGE_DUPLICATES:
                         unsafe_allow_html=True,
                     )
 
-            # Add Space between cards and table
             st.markdown('<div style="margin-top: 25px;"></div>', unsafe_allow_html=True)
 
             publishers_data = []
@@ -1011,8 +1046,8 @@ elif page == PAGE_DUPLICATES:
 
         all_export_data = []
         for g_idx, group in enumerate(grouped_results):
-            story_no = 101 + g_idx
-            dup_sr_no = f"DUP{str(story_no)}"
+            story_no = start_idx + 1 + g_idx
+            dup_sr_no = f"DUP{story_no:03d}"
             for rank, (source, data) in enumerate(group["publishers"], start=1):
                 art = data["article"]
                 ts = data["ts"]
@@ -1066,8 +1101,9 @@ elif page == PAGE_DATE_WISE:
     # ---- Filtered Articles for Pivot Table ----
 
     filtered_articles = []
-    for a in articles:
-        ts = parse_ts(a.get("published_at", ""))
+    for pa in parsed_articles:
+        a = pa["article"]
+        ts = pa["ts"]
         if not ts:
             continue
             
@@ -1087,20 +1123,18 @@ elif page == PAGE_DATE_WISE:
 
 
         
-        filtered_articles.append(a)
+        filtered_articles.append((ts, a))
 
     if not filtered_articles:
         st.info("No articles found in the selected date range.")
     else:
         date_source_counts = {}
-        for a in filtered_articles:
-            ts = parse_ts(a.get("published_at", ""))
-            if ts:
-                date_key = ts.strftime("%Y-%m-%d")
-                source = a.get("source", "Unknown")
-                if date_key not in date_source_counts:
-                    date_source_counts[date_key] = {}
-                date_source_counts[date_key][source] = date_source_counts[date_key].get(source, 0) + 1
+        for ts, a in filtered_articles:
+            date_key = ts.strftime("%Y-%m-%d")
+            source = a.get("source", "Unknown")
+            if date_key not in date_source_counts:
+                date_source_counts[date_key] = {}
+            date_source_counts[date_key][source] = date_source_counts[date_key].get(source, 0) + 1
 
         all_dates = sorted(date_source_counts.keys(), reverse=True)
         all_sources_in_data = sorted(set(s for d in date_source_counts for s in date_source_counts[d].keys()))
@@ -1166,25 +1200,24 @@ elif page == PAGE_LATEST:
     latest_articles = []
     start_date, end_date = local_date_range if (local_date_range and len(local_date_range) == 2) else (None, None)
 
-    for a in articles:
+    for pa in parsed_articles:
+        a = pa["article"]
+        ts = pa["ts"]
+        
         if local_source != "All" and a.get("source") != local_source:
             continue
             
-        ts = pd.to_datetime(a.get("published_at"))
-        if pd.isna(ts):
+        if not ts:
             continue
             
         if ts.tzinfo is None:
             ts = ts.replace(tzinfo=timezone.utc)
-            
-        if start_date and end_date:
-            try:
-                article_date = ts.date()
-                if not (start_date <= article_date <= end_date):
-                    continue
-            except:
-                continue
         
+        if start_date and end_date:
+            article_date = ts.date()
+            if not (start_date <= article_date <= end_date):
+                continue
+    
         if not start_date or start_date == now.date():
              if ts < min_threshold:
                  continue
